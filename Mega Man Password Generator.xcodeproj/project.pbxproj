@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3465E7515CDE23900DFE0C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3465E7415CDE23900DFE0C0 /* UIKit.framework */; };
+		A3465E7715CDE23900DFE0C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3465E7615CDE23900DFE0C0 /* Foundation.framework */; };
+		A3465E7915CDE23900DFE0C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3465E7815CDE23900DFE0C0 /* CoreGraphics.framework */; };
+		A3465E7F15CDE23900DFE0C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3465E7D15CDE23900DFE0C0 /* InfoPlist.strings */; };
+		A3465E8115CDE23900DFE0C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3465E8015CDE23900DFE0C0 /* main.m */; };
+		A3465E8515CDE23900DFE0C0 /* MMPGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3465E8415CDE23900DFE0C0 /* MMPGAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A3465E7015CDE23900DFE0C0 /* Mega Man Password Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mega Man Password Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3465E7415CDE23900DFE0C0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A3465E7615CDE23900DFE0C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A3465E7815CDE23900DFE0C0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A3465E7C15CDE23900DFE0C0 /* Mega Man Password Generator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mega Man Password Generator-Info.plist"; sourceTree = "<group>"; };
+		A3465E7E15CDE23900DFE0C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A3465E8015CDE23900DFE0C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3465E8215CDE23900DFE0C0 /* Mega Man Password Generator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mega Man Password Generator-Prefix.pch"; sourceTree = "<group>"; };
+		A3465E8315CDE23900DFE0C0 /* MMPGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMPGAppDelegate.h; sourceTree = "<group>"; };
+		A3465E8415CDE23900DFE0C0 /* MMPGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMPGAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3465E6D15CDE23800DFE0C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3465E7515CDE23900DFE0C0 /* UIKit.framework in Frameworks */,
+				A3465E7715CDE23900DFE0C0 /* Foundation.framework in Frameworks */,
+				A3465E7915CDE23900DFE0C0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3465E6515CDE23800DFE0C0 = {
+			isa = PBXGroup;
+			children = (
+				A3465E7A15CDE23900DFE0C0 /* Mega Man Password Generator */,
+				A3465E7315CDE23900DFE0C0 /* Frameworks */,
+				A3465E7115CDE23900DFE0C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3465E7115CDE23900DFE0C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3465E7015CDE23900DFE0C0 /* Mega Man Password Generator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3465E7315CDE23900DFE0C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3465E7415CDE23900DFE0C0 /* UIKit.framework */,
+				A3465E7615CDE23900DFE0C0 /* Foundation.framework */,
+				A3465E7815CDE23900DFE0C0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3465E7A15CDE23900DFE0C0 /* Mega Man Password Generator */ = {
+			isa = PBXGroup;
+			children = (
+				A3465E8315CDE23900DFE0C0 /* MMPGAppDelegate.h */,
+				A3465E8415CDE23900DFE0C0 /* MMPGAppDelegate.m */,
+				A3465E7B15CDE23900DFE0C0 /* Supporting Files */,
+			);
+			path = "Mega Man Password Generator";
+			sourceTree = "<group>";
+		};
+		A3465E7B15CDE23900DFE0C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3465E7C15CDE23900DFE0C0 /* Mega Man Password Generator-Info.plist */,
+				A3465E7D15CDE23900DFE0C0 /* InfoPlist.strings */,
+				A3465E8015CDE23900DFE0C0 /* main.m */,
+				A3465E8215CDE23900DFE0C0 /* Mega Man Password Generator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3465E6F15CDE23800DFE0C0 /* Mega Man Password Generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3465E8815CDE23900DFE0C0 /* Build configuration list for PBXNativeTarget "Mega Man Password Generator" */;
+			buildPhases = (
+				A3465E6C15CDE23800DFE0C0 /* Sources */,
+				A3465E6D15CDE23800DFE0C0 /* Frameworks */,
+				A3465E6E15CDE23800DFE0C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mega Man Password Generator";
+			productName = "Mega Man Password Generator";
+			productReference = A3465E7015CDE23900DFE0C0 /* Mega Man Password Generator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3465E6715CDE23800DFE0C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MMPG;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Luke Sneeringer";
+			};
+			buildConfigurationList = A3465E6A15CDE23800DFE0C0 /* Build configuration list for PBXProject "Mega Man Password Generator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A3465E6515CDE23800DFE0C0;
+			productRefGroup = A3465E7115CDE23900DFE0C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3465E6F15CDE23800DFE0C0 /* Mega Man Password Generator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3465E6E15CDE23800DFE0C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3465E7F15CDE23900DFE0C0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3465E6C15CDE23800DFE0C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3465E8115CDE23900DFE0C0 /* main.m in Sources */,
+				A3465E8515CDE23900DFE0C0 /* MMPGAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A3465E7D15CDE23900DFE0C0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3465E7E15CDE23900DFE0C0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3465E8615CDE23900DFE0C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3465E8715CDE23900DFE0C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3465E8915CDE23900DFE0C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mega Man Password Generator/Mega Man Password Generator-Prefix.pch";
+				INFOPLIST_FILE = "Mega Man Password Generator/Mega Man Password Generator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A3465E8A15CDE23900DFE0C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mega Man Password Generator/Mega Man Password Generator-Prefix.pch";
+				INFOPLIST_FILE = "Mega Man Password Generator/Mega Man Password Generator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3465E6A15CDE23800DFE0C0 /* Build configuration list for PBXProject "Mega Man Password Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3465E8615CDE23900DFE0C0 /* Debug */,
+				A3465E8715CDE23900DFE0C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3465E8815CDE23900DFE0C0 /* Build configuration list for PBXNativeTarget "Mega Man Password Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3465E8915CDE23900DFE0C0 /* Debug */,
+				A3465E8A15CDE23900DFE0C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3465E6715CDE23800DFE0C0 /* Project object */;
+}
