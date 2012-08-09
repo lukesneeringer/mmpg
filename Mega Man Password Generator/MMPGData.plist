@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>code</key>
+		<string>mm2</string>
+		<key>label</key>
+		<string>Mega Man 2</string>
+		<key>year</key>
+		<integer>1988</integer>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>code</key>
+				<string>etank</string>
+				<key>label</key>
+				<string>Energy Tank</string>
+				<key>min</key>
+				<integer>0</integer>
+				<key>max</key>
+				<integer>4</integer>
+			</dict>
+		</array>
+		<key>bosses</key>
+		<array>
+			<dict>
+				<key>code</key>
+				<string>air_man</string>
+				<key>label</key>
+				<string>Air Man</string>
+				<key>weapon</key>
+				<string>Air Shooter</string>
+				<key>weaponCode</key>
+				<string>A</string>
+				<key>tier</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>code</key>
+				<string>bubble_man</string>
+				<key>label</key>
+				<string>Bubble Man</string>
+				<key>weapon</key>
+				<string>Bubble Lead</string>
+				<key>weaponCode</key>
+				<string>B</string>
+				<key>tier</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>code</key>
+				<string>crash_man</string>
+				<key>label</key>
+				<string>Crash Man</string>
+				<key>weapon</key>
+				<string>Crash Bomb</string>
+				<key>weaponCode</key>
+				<string>C</string>
+				<key>tier</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>code</key>
+				<string>flash_man</string>
+				<key>label</key>
+				<string>Flash Man</string>
+				<key>weapon</key>
+				<string>Time Stopper</string>
+				<key>weaponCode</key>
+				<string>F</string>
+				<key>tier</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>label</key>
+				<string>Heat Man</string>
+				<key>code</key>
+				<string>heat_man</string>
+				<key>weapon</key>
+				<string>Atomic Fire</string>
+				<key>weaponCode</key>
+				<string>H</string>
+				<key>tier</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>code</key>
+				<string>metal_man</string>
+				<key>label</key>
+				<string>Metal Man</string>
+				<key>weapon</key>
+				<string>Metal Blade</string>
+				<key>weaponCode</key>
+				<string>M</string>
+				<key>tier</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>code</key>
+				<string>quick_man</string>
+				<key>label</key>
+				<string>Quick Man</string>
+				<key>weapon</key>
+				<string>Quick Boomerang</string>
+				<key>weaponCode</key>
+				<string>Q</string>
+				<key>tier</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>code</key>
+				<string>wood_man</string>
+				<key>label</key>
+				<string>Wood Man</string>
+				<key>weapon</key>
+				<string>Leaf Shield</string>
+				<key>weaponCode</key>
+				<string>W</string>
+				<key>tier</key>
+				<integer>0</integer>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A33C288815D2FEF8001EAC3F /* title_mm2.png in Resources */ = {isa = PBXBuildFile; fileRef = A33C288715D2FEF8001EAC3F /* title_mm2.png */; };
+		A33C288A15D2FF07001EAC3F /* title_mm3.png in Resources */ = {isa = PBXBuildFile; fileRef = A33C288915D2FF07001EAC3F /* title_mm3.png */; };
+		A33C289A15D30611001EAC3F /* MMPGDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = A33C289915D30611001EAC3F /* MMPGDataStore.m */; };
+		A33C28AC15D31747001EAC3F /* MMPGData.plist in Resources */ = {isa = PBXBuildFile; fileRef = A33C28AB15D31747001EAC3F /* MMPGData.plist */; };
+		A33C28AF15D32293001EAC3F /* MMPGDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A33C28AE15D32293001EAC3F /* MMPGDataObject.m */; };
+		A33C28B215D3232E001EAC3F /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = A33C28B115D3232E001EAC3F /* Game.m */; };
+		A33C28B515D323AC001EAC3F /* Boss.m in Sources */ = {isa = PBXBuildFile; fileRef = A33C28B415D323AC001EAC3F /* Boss.m */; };
+		A33C28B815D32429001EAC3F /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = A33C28B715D32429001EAC3F /* Item.m */; };
+		A33E306615D46663000CD278 /* GameSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A33E306415D46663000CD278 /* GameSelectionViewController.m */; };
 		A3465E7515CDE23900DFE0C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3465E7415CDE23900DFE0C0 /* UIKit.framework */; };
 		A3465E7715CDE23900DFE0C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3465E7615CDE23900DFE0C0 /* Foundation.framework */; };
 		A3465E7915CDE23900DFE0C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3465E7815CDE23900DFE0C0 /* CoreGraphics.framework */; };
@@ -16,6 +25,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A33C288715D2FEF8001EAC3F /* title_mm2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_mm2.png; sourceTree = "<group>"; };
+		A33C288915D2FF07001EAC3F /* title_mm3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_mm3.png; sourceTree = "<group>"; };
+		A33C289815D30611001EAC3F /* MMPGDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPGDataStore.h; sourceTree = "<group>"; };
+		A33C289915D30611001EAC3F /* MMPGDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMPGDataStore.m; sourceTree = "<group>"; };
+		A33C28AB15D31747001EAC3F /* MMPGData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MMPGData.plist; sourceTree = "<group>"; };
+		A33C28AD15D32293001EAC3F /* MMPGDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPGDataObject.h; sourceTree = "<group>"; };
+		A33C28AE15D32293001EAC3F /* MMPGDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMPGDataObject.m; sourceTree = "<group>"; };
+		A33C28B015D3232E001EAC3F /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		A33C28B115D3232E001EAC3F /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		A33C28B315D323AC001EAC3F /* Boss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boss.h; sourceTree = "<group>"; };
+		A33C28B415D323AC001EAC3F /* Boss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Boss.m; sourceTree = "<group>"; };
+		A33C28B615D32429001EAC3F /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		A33C28B715D32429001EAC3F /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		A33E306315D46663000CD278 /* GameSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameSelectionViewController.h; sourceTree = "<group>"; };
+		A33E306415D46663000CD278 /* GameSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameSelectionViewController.m; sourceTree = "<group>"; };
 		A3465E7015CDE23900DFE0C0 /* Mega Man Password Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mega Man Password Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3465E7415CDE23900DFE0C0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A3465E7615CDE23900DFE0C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -42,6 +66,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A33C289615D30491001EAC3F /* Password Generators */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Password Generators";
+			sourceTree = "<group>";
+		};
+		A33C289715D304A2001EAC3F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A33E306315D46663000CD278 /* GameSelectionViewController.h */,
+				A33E306415D46663000CD278 /* GameSelectionViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A33C289B15D3073D001EAC3F /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				A33C28B315D323AC001EAC3F /* Boss.h */,
+				A33C28B415D323AC001EAC3F /* Boss.m */,
+				A33C28B015D3232E001EAC3F /* Game.h */,
+				A33C28B115D3232E001EAC3F /* Game.m */,
+				A33C28B615D32429001EAC3F /* Item.h */,
+				A33C28B715D32429001EAC3F /* Item.m */,
+				A33C289815D30611001EAC3F /* MMPGDataStore.h */,
+				A33C289915D30611001EAC3F /* MMPGDataStore.m */,
+				A33C28AD15D32293001EAC3F /* MMPGDataObject.h */,
+				A33C28AE15D32293001EAC3F /* MMPGDataObject.m */,
+				A33C28AB15D31747001EAC3F /* MMPGData.plist */,
+			);
+			name = "Data Models";
+			sourceTree = "<group>";
+		};
 		A3465E6515CDE23800DFE0C0 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +130,9 @@
 		A3465E7A15CDE23900DFE0C0 /* Mega Man Password Generator */ = {
 			isa = PBXGroup;
 			children = (
+				A33C289B15D3073D001EAC3F /* Data Models */,
+				A33C289715D304A2001EAC3F /* Views */,
+				A33C289615D30491001EAC3F /* Password Generators */,
 				A3465E8315CDE23900DFE0C0 /* MMPGAppDelegate.h */,
 				A3465E8415CDE23900DFE0C0 /* MMPGAppDelegate.m */,
 				A3465E7B15CDE23900DFE0C0 /* Supporting Files */,
@@ -82,6 +143,8 @@
 		A3465E7B15CDE23900DFE0C0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A33C288715D2FEF8001EAC3F /* title_mm2.png */,
+				A33C288915D2FF07001EAC3F /* title_mm3.png */,
 				A3465E7C15CDE23900DFE0C0 /* Mega Man Password Generator-Info.plist */,
 				A3465E7D15CDE23900DFE0C0 /* InfoPlist.strings */,
 				A3465E8015CDE23900DFE0C0 /* main.m */,
@@ -143,6 +206,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3465E7F15CDE23900DFE0C0 /* InfoPlist.strings in Resources */,
+				A33C288815D2FEF8001EAC3F /* title_mm2.png in Resources */,
+				A33C288A15D2FF07001EAC3F /* title_mm3.png in Resources */,
+				A33C28AC15D31747001EAC3F /* MMPGData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +221,12 @@
 			files = (
 				A3465E8115CDE23900DFE0C0 /* main.m in Sources */,
 				A3465E8515CDE23900DFE0C0 /* MMPGAppDelegate.m in Sources */,
+				A33C289A15D30611001EAC3F /* MMPGDataStore.m in Sources */,
+				A33C28AF15D32293001EAC3F /* MMPGDataObject.m in Sources */,
+				A33C28B215D3232E001EAC3F /* Game.m in Sources */,
+				A33C28B515D323AC001EAC3F /* Boss.m in Sources */,
+				A33C28B815D32429001EAC3F /* Item.m in Sources */,
+				A33E306615D46663000CD278 /* GameSelectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +332,7 @@
 				A3465E8A15CDE23900DFE0C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
