@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3038F0315D495BE009915DB /* GameSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3038F0215D495BE009915DB /* GameSelectionViewController.m */; };
 		A33C288815D2FEF8001EAC3F /* title_mm2.png in Resources */ = {isa = PBXBuildFile; fileRef = A33C288715D2FEF8001EAC3F /* title_mm2.png */; };
 		A33C288A15D2FF07001EAC3F /* title_mm3.png in Resources */ = {isa = PBXBuildFile; fileRef = A33C288915D2FF07001EAC3F /* title_mm3.png */; };
 		A33C289A15D30611001EAC3F /* MMPGDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = A33C289915D30611001EAC3F /* MMPGDataStore.m */; };
@@ -24,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A3038F0115D495BE009915DB /* GameSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameSelectionViewController.h; sourceTree = "<group>"; };
+		A3038F0215D495BE009915DB /* GameSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameSelectionViewController.m; sourceTree = "<group>"; };
 		A33C288715D2FEF8001EAC3F /* title_mm2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_mm2.png; sourceTree = "<group>"; };
 		A33C288915D2FF07001EAC3F /* title_mm3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_mm3.png; sourceTree = "<group>"; };
 		A33C289815D30611001EAC3F /* MMPGDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPGDataStore.h; sourceTree = "<group>"; };
@@ -73,6 +76,8 @@
 		A33C289715D304A2001EAC3F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A3038F0115D495BE009915DB /* GameSelectionViewController.h */,
+				A3038F0215D495BE009915DB /* GameSelectionViewController.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 				A33C28B215D3232E001EAC3F /* Game.m in Sources */,
 				A33C28B515D323AC001EAC3F /* Boss.m in Sources */,
 				A33C28B815D32429001EAC3F /* Item.m in Sources */,
+				A3038F0315D495BE009915DB /* GameSelectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
