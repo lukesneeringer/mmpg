@@ -17,6 +17,7 @@
 + (MMPGDataStore*) sharedStore;
 
 - (NSArray*) games;
+- (Game*) gameAtIndexPath:(NSIndexPath*)indexPath;
 
 @end
 

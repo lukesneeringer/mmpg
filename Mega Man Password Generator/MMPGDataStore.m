@@ -23,6 +23,7 @@
     return [self sharedStore];
 }
 
+
 - (void) _registerGame:(Game*)game {
     [games addObject:game];
 }
@@ -46,8 +47,17 @@
     return self;
 }
 
+
 - (NSArray*) games {
     return (NSArray*)games;
 }
+
+
+- (Game*) gameAtIndexPath:(NSIndexPath*)indexPath {
+    // there is only one section; simply return the game at
+    // the appropriate index
+    return [games objectAtIndex:indexPath.row];
+}
+
 
 @end

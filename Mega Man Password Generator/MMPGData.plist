@@ -3,6 +3,8 @@
 <plist version="1.0">
 <array>
 	<dict>
+		<key>system</key>
+		<string>NES</string>
 		<key>code</key>
 		<string>mm2</string>
 		<key>label</key>
@@ -117,6 +119,128 @@
 				<string>Leaf Shield</string>
 				<key>weaponCode</key>
 				<string>W</string>
+				<key>tier</key>
+				<integer>0</integer>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>system</key>
+		<string>NES</string>
+		<key>code</key>
+		<string>mm3</string>
+		<key>label</key>
+		<string>Mega Man 3</string>
+		<key>year</key>
+		<integer>1990</integer>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>code</key>
+				<string>etank</string>
+				<key>label</key>
+				<string>Energy Tank</string>
+				<key>min</key>
+				<integer>0</integer>
+				<key>max</key>
+				<integer>9</integer>
+			</dict>
+		</array>
+		<key>bosses</key>
+		<array>
+			<dict>
+				<key>label</key>
+				<string>Gemini Man</string>
+				<key>code</key>
+				<string>gemini_man</string>
+				<key>weapon</key>
+				<string>Gemini Laser</string>
+				<key>weaponCode</key>
+				<string>GE</string>
+				<key>tier</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>label</key>
+				<string>Hard Man</string>
+				<key>code</key>
+				<string>hard_man</string>
+				<key>weapon</key>
+				<string>Hard Knuckle</string>
+				<key>weaponCode</key>
+				<string>HA</string>
+				<key>tier</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>label</key>
+				<string>Magnet Man</string>
+				<key>code</key>
+				<string>magnet_man</string>
+				<key>weapon</key>
+				<string>Magnet Missile</string>
+				<key>weaponCode</key>
+				<string>MA</string>
+				<key>tier</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>label</key>
+				<string>Needle Man</string>
+				<key>code</key>
+				<string>needle_man</string>
+				<key>weapon</key>
+				<string>Needle Cannon</string>
+				<key>weaponCode</key>
+				<string>NE</string>
+				<key>tier</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>label</key>
+				<string>Shadow Man</string>
+				<key>code</key>
+				<string>shadow_man</string>
+				<key>weapon</key>
+				<string>Shadow Blade</string>
+				<key>weaponCode</key>
+				<string>SH</string>
+				<key>tier</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>label</key>
+				<string>Snake Man</string>
+				<key>code</key>
+				<string>snake_man</string>
+				<key>weapon</key>
+				<string>Search Snake</string>
+				<key>weaponCode</key>
+				<string>SN</string>
+				<key>tier</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>label</key>
+				<string>Spark Man</string>
+				<key>code</key>
+				<string>spark_man</string>
+				<key>weapon</key>
+				<string>Spark Shock</string>
+				<key>weaponCode</key>
+				<string>SP</string>
+				<key>tier</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>label</key>
+				<string>Top Man</string>
+				<key>code</key>
+				<string>top_man</string>
+				<key>weapon</key>
+				<string>Top Spin</string>
+				<key>weaponCode</key>
+				<string>TO</string>
 				<key>tier</key>
 				<integer>0</integer>
 			</dict>

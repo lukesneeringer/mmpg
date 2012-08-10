@@ -22,6 +22,8 @@
 		A3465E7F15CDE23900DFE0C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3465E7D15CDE23900DFE0C0 /* InfoPlist.strings */; };
 		A3465E8115CDE23900DFE0C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3465E8015CDE23900DFE0C0 /* main.m */; };
 		A3465E8515CDE23900DFE0C0 /* MMPGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3465E8415CDE23900DFE0C0 /* MMPGAppDelegate.m */; };
+		A390726415D599300052E8E6 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A390726215D599300052E8E6 /* GameViewController.m */; };
+		A390726515D599300052E8E6 /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A390726315D599300052E8E6 /* GameViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,9 @@
 		A3465E8215CDE23900DFE0C0 /* Mega Man Password Generator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mega Man Password Generator-Prefix.pch"; sourceTree = "<group>"; };
 		A3465E8315CDE23900DFE0C0 /* MMPGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMPGAppDelegate.h; sourceTree = "<group>"; };
 		A3465E8415CDE23900DFE0C0 /* MMPGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMPGAppDelegate.m; sourceTree = "<group>"; };
+		A390726115D599300052E8E6 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		A390726215D599300052E8E6 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		A390726315D599300052E8E6 /* GameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +83,9 @@
 			children = (
 				A3038F0115D495BE009915DB /* GameSelectionViewController.h */,
 				A3038F0215D495BE009915DB /* GameSelectionViewController.m */,
+				A390726115D599300052E8E6 /* GameViewController.h */,
+				A390726215D599300052E8E6 /* GameViewController.m */,
+				A390726315D599300052E8E6 /* GameViewController.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -143,14 +151,30 @@
 		A3465E7B15CDE23900DFE0C0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A33C288715D2FEF8001EAC3F /* title_mm2.png */,
-				A33C288915D2FF07001EAC3F /* title_mm3.png */,
+				A390726815D59BDD0052E8E6 /* Screenshots */,
+				A390726715D59BCE0052E8E6 /* Sprites */,
 				A3465E7C15CDE23900DFE0C0 /* Mega Man Password Generator-Info.plist */,
 				A3465E7D15CDE23900DFE0C0 /* InfoPlist.strings */,
 				A3465E8015CDE23900DFE0C0 /* main.m */,
 				A3465E8215CDE23900DFE0C0 /* Mega Man Password Generator-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A390726715D59BCE0052E8E6 /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Sprites;
+			sourceTree = "<group>";
+		};
+		A390726815D59BDD0052E8E6 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				A33C288715D2FEF8001EAC3F /* title_mm2.png */,
+				A33C288915D2FF07001EAC3F /* title_mm3.png */,
+			);
+			name = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +233,7 @@
 				A33C288815D2FEF8001EAC3F /* title_mm2.png in Resources */,
 				A33C288A15D2FF07001EAC3F /* title_mm3.png in Resources */,
 				A33C28AC15D31747001EAC3F /* MMPGData.plist in Resources */,
+				A390726515D599300052E8E6 /* GameViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +252,7 @@
 				A33C28B515D323AC001EAC3F /* Boss.m in Sources */,
 				A33C28B815D32429001EAC3F /* Item.m in Sources */,
 				A3038F0315D495BE009915DB /* GameSelectionViewController.m in Sources */,
+				A390726415D599300052E8E6 /* GameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
