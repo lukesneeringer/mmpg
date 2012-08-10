@@ -15,7 +15,6 @@
 		A33C28B215D3232E001EAC3F /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = A33C28B115D3232E001EAC3F /* Game.m */; };
 		A33C28B515D323AC001EAC3F /* Boss.m in Sources */ = {isa = PBXBuildFile; fileRef = A33C28B415D323AC001EAC3F /* Boss.m */; };
 		A33C28B815D32429001EAC3F /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = A33C28B715D32429001EAC3F /* Item.m */; };
-		A33E306615D46663000CD278 /* GameSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A33E306415D46663000CD278 /* GameSelectionViewController.m */; };
 		A3465E7515CDE23900DFE0C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3465E7415CDE23900DFE0C0 /* UIKit.framework */; };
 		A3465E7715CDE23900DFE0C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3465E7615CDE23900DFE0C0 /* Foundation.framework */; };
 		A3465E7915CDE23900DFE0C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3465E7815CDE23900DFE0C0 /* CoreGraphics.framework */; };
@@ -38,8 +37,6 @@
 		A33C28B415D323AC001EAC3F /* Boss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Boss.m; sourceTree = "<group>"; };
 		A33C28B615D32429001EAC3F /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
 		A33C28B715D32429001EAC3F /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
-		A33E306315D46663000CD278 /* GameSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameSelectionViewController.h; sourceTree = "<group>"; };
-		A33E306415D46663000CD278 /* GameSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameSelectionViewController.m; sourceTree = "<group>"; };
 		A3465E7015CDE23900DFE0C0 /* Mega Man Password Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mega Man Password Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3465E7415CDE23900DFE0C0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A3465E7615CDE23900DFE0C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -76,8 +73,6 @@
 		A33C289715D304A2001EAC3F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A33E306315D46663000CD278 /* GameSelectionViewController.h */,
-				A33E306415D46663000CD278 /* GameSelectionViewController.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -226,7 +221,6 @@
 				A33C28B215D3232E001EAC3F /* Game.m in Sources */,
 				A33C28B515D323AC001EAC3F /* Boss.m in Sources */,
 				A33C28B815D32429001EAC3F /* Item.m in Sources */,
-				A33E306615D46663000CD278 /* GameSelectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
