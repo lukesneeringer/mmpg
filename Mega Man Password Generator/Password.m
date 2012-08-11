@@ -33,11 +33,11 @@
 
 @synthesize imageCode, row, column;
 
-- (id) initWithImageCode:(NSString*)code atRow:(int)rowNumber andColumn:(int)columnNumber {
+- (id) initWithImageCode:(NSString*)code atRow:(char)rowChar andColumn:(int)columnNumber {
     self = [super init];
     if (self) {
         imageCode = code;
-        row = rowNumber;
+        row = rowChar;
         column = columnNumber;
     }
     return self;

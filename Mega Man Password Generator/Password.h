@@ -20,10 +20,10 @@
 
 @interface PasswordUnit : NSObject
 
-@property (nonatomic, readonly) int row;
+@property (nonatomic, readonly) char row;
 @property (nonatomic, readonly) int column;
 @property (nonatomic, strong, readonly) NSString* imageCode;
 
-- (id) initWithImageCode:(NSString*)code atRow:(int)rowNumber andColumn:(int)columnNumber;
+- (id) initWithImageCode:(NSString*)code atRow:(char)rowChar andColumn:(int)columnNumber;
 
 @end

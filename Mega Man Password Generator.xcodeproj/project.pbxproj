@@ -55,6 +55,12 @@
 		A3465E8515CDE23900DFE0C0 /* MMPGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3465E8415CDE23900DFE0C0 /* MMPGAppDelegate.m */; };
 		A390726415D599300052E8E6 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A390726215D599300052E8E6 /* GameViewController.m */; };
 		A390726515D599300052E8E6 /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A390726315D599300052E8E6 /* GameViewController.xib */; };
+		A398A8E515D6F1A400ED23EE /* MM3PasswordGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = A398A8E415D6F1A400ED23EE /* MM3PasswordGenerator.m */; };
+		A398A8EA15D6F57F00ED23EE /* PasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A398A8E815D6F57F00ED23EE /* PasswordViewController.m */; };
+		A398A8EB15D6F57F00ED23EE /* PasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A398A8E915D6F57F00ED23EE /* PasswordViewController.xib */; };
+		A398A8F515D701E500ED23EE /* mm2_grid.png in Resources */ = {isa = PBXBuildFile; fileRef = A398A8F415D701E500ED23EE /* mm2_grid.png */; };
+		A398A8F915D7034800ED23EE /* blue_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = A398A8F715D7034800ED23EE /* blue_dot.png */; };
+		A398A8FA15D7034800ED23EE /* red_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = A398A8F815D7034800ED23EE /* red_dot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -124,6 +130,14 @@
 		A390726115D599300052E8E6 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		A390726215D599300052E8E6 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		A390726315D599300052E8E6 /* GameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
+		A398A8E315D6F1A400ED23EE /* MM3PasswordGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MM3PasswordGenerator.h; sourceTree = "<group>"; };
+		A398A8E415D6F1A400ED23EE /* MM3PasswordGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MM3PasswordGenerator.m; sourceTree = "<group>"; };
+		A398A8E715D6F57F00ED23EE /* PasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordViewController.h; sourceTree = "<group>"; };
+		A398A8E815D6F57F00ED23EE /* PasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordViewController.m; sourceTree = "<group>"; };
+		A398A8E915D6F57F00ED23EE /* PasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PasswordViewController.xib; sourceTree = "<group>"; };
+		A398A8F415D701E500ED23EE /* mm2_grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mm2_grid.png; sourceTree = "<group>"; };
+		A398A8F715D7034800ED23EE /* blue_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_dot.png; sourceTree = "<group>"; };
+		A398A8F815D7034800ED23EE /* red_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_dot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +205,8 @@
 				A323382C15D60186003D062C /* MMPGPasswordGenerator.m */,
 				A323382E15D6041E003D062C /* MM2PasswordGenerator.h */,
 				A323382F15D6041E003D062C /* MM2PasswordGenerator.m */,
+				A398A8E315D6F1A400ED23EE /* MM3PasswordGenerator.h */,
+				A398A8E415D6F1A400ED23EE /* MM3PasswordGenerator.m */,
 			);
 			name = "Password Generators";
 			sourceTree = "<group>";
@@ -212,6 +228,9 @@
 				A323380915D5E8BC003D062C /* ItemMultiView.h */,
 				A323380A15D5E8BC003D062C /* ItemMultiView.m */,
 				A323380415D5E4F5003D062C /* ItemMultiView.xib */,
+				A398A8E715D6F57F00ED23EE /* PasswordViewController.h */,
+				A398A8E815D6F57F00ED23EE /* PasswordViewController.m */,
+				A398A8E915D6F57F00ED23EE /* PasswordViewController.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -292,6 +311,7 @@
 		A390726715D59BCE0052E8E6 /* Sprites */ = {
 			isa = PBXGroup;
 			children = (
+				A398A8EF15D6FF7F00ED23EE /* Password Assets */,
 				A323380C15D5F17C003D062C /* Items */,
 				A32337E615D5B2E6003D062C /* Mega Man 2 */,
 				A323380F15D5FE9A003D062C /* Mega Man 3 */,
@@ -306,6 +326,16 @@
 				A33C288915D2FF07001EAC3F /* title_mm3.png */,
 			);
 			name = Screenshots;
+			sourceTree = "<group>";
+		};
+		A398A8EF15D6FF7F00ED23EE /* Password Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A398A8F415D701E500ED23EE /* mm2_grid.png */,
+				A398A8F715D7034800ED23EE /* blue_dot.png */,
+				A398A8F815D7034800ED23EE /* red_dot.png */,
+			);
+			name = "Password Assets";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -389,6 +419,10 @@
 				A323382515D5FEF4003D062C /* snake_man.png in Resources */,
 				A323382615D5FEF4003D062C /* spark_man.png in Resources */,
 				A323382715D5FEF4003D062C /* top_man.png in Resources */,
+				A398A8EB15D6F57F00ED23EE /* PasswordViewController.xib in Resources */,
+				A398A8F515D701E500ED23EE /* mm2_grid.png in Resources */,
+				A398A8F915D7034800ED23EE /* blue_dot.png in Resources */,
+				A398A8FA15D7034800ED23EE /* red_dot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +449,8 @@
 				A323382D15D60186003D062C /* MMPGPasswordGenerator.m in Sources */,
 				A323383015D6041E003D062C /* MM2PasswordGenerator.m in Sources */,
 				A323383315D606F7003D062C /* Password.m in Sources */,
+				A398A8E515D6F1A400ED23EE /* MM3PasswordGenerator.m in Sources */,
+				A398A8EA15D6F57F00ED23EE /* PasswordViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

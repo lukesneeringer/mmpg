@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @class Game;
+@class Password;
 
 @interface MMPGPasswordGenerator : NSObject {
     Game* game;
@@ -16,6 +17,6 @@
 
 - (id) initWithGame:(Game*)aGame;
 
-- (NSArray*) generatePassword;
+- (Password*) generatePassword;
 
 @end

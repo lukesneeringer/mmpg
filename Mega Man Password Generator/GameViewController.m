@@ -17,6 +17,11 @@
 #import "BossView.h"
 #import "ItemMultiView.h"
 #import "ItemSingleView.h"
+#import "PasswordViewController.m"
+
+// and we'll need the password generator and registry
+#import "MMPGPasswordGeneratorRegistry.h"
+#import "MMPGPasswordGenerator.h"
 
 #define CHOICE_HEIGHT 72
 
@@ -128,7 +133,15 @@
 }
 
 
-- (IBAction) generatePassword:(UIButton*)sender {
+- (IBAction) generatePassword:(id)sender {
+    // retrieve the appropriate password generator
+    // for the given game
+    MMPGPasswordGenerator* pg = [[MMPGPasswordGeneratorRegistry sharedRegistry] generatorForGame:game];
+    Password* password = [pg generatePassword];
+    
+    // push the password display view onto the navigation controller
+    PasswordViewController* pvc = [[PasswordViewController alloc] initWithPassword:password forGame:game];
+    [self.navigationController pushViewController:pvc animated:YES];
 }
 
 

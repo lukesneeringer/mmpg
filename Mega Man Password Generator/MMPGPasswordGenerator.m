@@ -9,6 +9,8 @@
 #import "MMPGPasswordGenerator.h"
 #import "Game.h"
 
+@class Password;
+
 @implementation MMPGPasswordGenerator
 
 - (id) init {
@@ -25,7 +27,7 @@
 }
 
 
-- (NSArray*) generatePassword {
+- (Password*) generatePassword {
     return nil;
 }
 
