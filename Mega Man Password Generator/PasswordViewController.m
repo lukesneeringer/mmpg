@@ -8,6 +8,7 @@
 
 #import "PasswordViewController.h"
 #import "Game.h"
+#import "Password.h"
 
 @implementation PasswordViewController
 

@@ -17,7 +17,7 @@
 #import "BossView.h"
 #import "ItemMultiView.h"
 #import "ItemSingleView.h"
-#import "PasswordViewController.m"
+#import "PasswordViewController.h"
 
 // and we'll need the password generator and registry
 #import "MMPGPasswordGeneratorRegistry.h"
