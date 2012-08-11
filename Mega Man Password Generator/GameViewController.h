@@ -14,6 +14,7 @@
     Game* game;
     
     __weak IBOutlet UIScrollView* scrollView;
+    UIView* choicesView;
 }
 
 - (id) initWithGame:(Game*)aGame;

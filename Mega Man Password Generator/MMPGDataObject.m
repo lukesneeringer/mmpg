@@ -45,6 +45,9 @@
                     MMPGDataObject* instance = [[class alloc] initWithDictionary:[value objectAtIndex:i] andParent:self];
                     [arr addObject:instance];
                 }
+                
+                // now write the array to the object
+                [self setValue:arr forKey:key];
             }
             else {
                 // okay, we're dealing with a scalar value; set it
