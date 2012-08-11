@@ -8,11 +8,17 @@
 
 #import "MMPGDataObject.h"
 
+@class Boss;
+@class Item;
+
 @interface Game : MMPGDataObject
 
 @property (nonatomic, strong, readonly) NSString* system;
 @property (nonatomic, readonly) NSUInteger year;
 @property (nonatomic, strong, readonly) NSMutableArray* bosses;
 @property (nonatomic, strong, readonly) NSMutableArray* items;
+
+- (Boss*) bossWithCode:(NSString*)code;
+- (Item*) itemWithCode:(NSString*)code;
 
 @end

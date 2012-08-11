@@ -17,4 +17,6 @@
 @property (nonatomic, strong, readonly) NSString* weaponCode;
 @property (nonatomic, readonly) NSUInteger tier;
 
+@property (nonatomic) BOOL defeated;
+
 @end

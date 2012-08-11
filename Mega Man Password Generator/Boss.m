@@ -11,6 +11,6 @@
 
 @implementation Boss
 
-@synthesize game, weapon, weaponCode, tier;
+@synthesize game, weapon, weaponCode, tier, defeated;
 
 @end

@@ -7,9 +7,32 @@
 //
 
 #import "Game.h"
+#import "Boss.h"
+#import "Item.h"
 
 @implementation Game
 
 @synthesize system, year, bosses, items;
+
+- (Boss*) bossWithCode:(NSString*)code {
+    for (int i = 0; i < [self.bosses count]; i += 1) {
+        Boss* boss = [self.bosses objectAtIndex:i];
+        if (boss.code == code) {
+            return boss;
+        }
+    }
+    return nil;
+}
+
+
+- (Item*) itemWithCode:(NSString*)code {
+    for (int i = 0; i < [self.items count]; i += 1) {
+        Item* item = [self.items objectAtIndex:i];
+        if (item.code == code) {
+            return item;
+        }
+    }
+    return nil;
+}
 
 @end

@@ -11,6 +11,6 @@
 
 @implementation Item
 
-@synthesize game, min, max;
+@synthesize game, min, max, stock;
 
 @end

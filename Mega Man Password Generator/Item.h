@@ -16,4 +16,6 @@
 @property (nonatomic) NSUInteger min;
 @property (nonatomic) NSUInteger max;
 
+@property (nonatomic) NSUInteger stock;
+
 @end

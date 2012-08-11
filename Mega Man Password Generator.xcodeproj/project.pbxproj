@@ -23,6 +23,22 @@
 		A323380815D5E761003D062C /* ItemSingleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A323380715D5E761003D062C /* ItemSingleView.m */; };
 		A323380B15D5E8BC003D062C /* ItemMultiView.m in Sources */ = {isa = PBXBuildFile; fileRef = A323380A15D5E8BC003D062C /* ItemMultiView.m */; };
 		A323380E15D5F188003D062C /* etank.png in Resources */ = {isa = PBXBuildFile; fileRef = A323380D15D5F188003D062C /* etank.png */; };
+		A323381C15D5FEF4003D062C /* needle_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A323381015D5FEF4003D062C /* needle_man.png */; };
+		A323381D15D5FEF4003D062C /* hard_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A323381115D5FEF4003D062C /* hard_man.png */; };
+		A323381E15D5FEF4003D062C /* gemini_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A323381215D5FEF4003D062C /* gemini_man.png */; };
+		A323381F15D5FEF4003D062C /* doc_robot_spark.png in Resources */ = {isa = PBXBuildFile; fileRef = A323381315D5FEF4003D062C /* doc_robot_spark.png */; };
+		A323382015D5FEF4003D062C /* doc_robot_snake.png in Resources */ = {isa = PBXBuildFile; fileRef = A323381415D5FEF4003D062C /* doc_robot_snake.png */; };
+		A323382115D5FEF4003D062C /* doc_robot_shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = A323381515D5FEF4003D062C /* doc_robot_shadow.png */; };
+		A323382215D5FEF4003D062C /* magnet_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A323381615D5FEF4003D062C /* magnet_man.png */; };
+		A323382315D5FEF4003D062C /* doc_robot_gemini.png in Resources */ = {isa = PBXBuildFile; fileRef = A323381715D5FEF4003D062C /* doc_robot_gemini.png */; };
+		A323382415D5FEF4003D062C /* shadow_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A323381815D5FEF4003D062C /* shadow_man.png */; };
+		A323382515D5FEF4003D062C /* snake_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A323381915D5FEF4003D062C /* snake_man.png */; };
+		A323382615D5FEF4003D062C /* spark_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A323381A15D5FEF4003D062C /* spark_man.png */; };
+		A323382715D5FEF4003D062C /* top_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A323381B15D5FEF4003D062C /* top_man.png */; };
+		A323382A15D5FFF8003D062C /* MMPGPasswordGeneratorRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = A323382915D5FFF8003D062C /* MMPGPasswordGeneratorRegistry.m */; };
+		A323382D15D60186003D062C /* MMPGPasswordGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = A323382C15D60186003D062C /* MMPGPasswordGenerator.m */; };
+		A323383015D6041E003D062C /* MM2PasswordGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = A323382F15D6041E003D062C /* MM2PasswordGenerator.m */; };
+		A323383315D606F7003D062C /* Password.m in Sources */ = {isa = PBXBuildFile; fileRef = A323383215D606F7003D062C /* Password.m */; };
 		A33C288815D2FEF8001EAC3F /* title_mm2.png in Resources */ = {isa = PBXBuildFile; fileRef = A33C288715D2FEF8001EAC3F /* title_mm2.png */; };
 		A33C288A15D2FF07001EAC3F /* title_mm3.png in Resources */ = {isa = PBXBuildFile; fileRef = A33C288915D2FF07001EAC3F /* title_mm3.png */; };
 		A33C289A15D30611001EAC3F /* MMPGDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = A33C289915D30611001EAC3F /* MMPGDataStore.m */; };
@@ -62,6 +78,26 @@
 		A323380915D5E8BC003D062C /* ItemMultiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemMultiView.h; sourceTree = "<group>"; };
 		A323380A15D5E8BC003D062C /* ItemMultiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemMultiView.m; sourceTree = "<group>"; };
 		A323380D15D5F188003D062C /* etank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = etank.png; sourceTree = "<group>"; };
+		A323381015D5FEF4003D062C /* needle_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = needle_man.png; sourceTree = "<group>"; };
+		A323381115D5FEF4003D062C /* hard_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hard_man.png; sourceTree = "<group>"; };
+		A323381215D5FEF4003D062C /* gemini_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gemini_man.png; sourceTree = "<group>"; };
+		A323381315D5FEF4003D062C /* doc_robot_spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doc_robot_spark.png; sourceTree = "<group>"; };
+		A323381415D5FEF4003D062C /* doc_robot_snake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doc_robot_snake.png; sourceTree = "<group>"; };
+		A323381515D5FEF4003D062C /* doc_robot_shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doc_robot_shadow.png; sourceTree = "<group>"; };
+		A323381615D5FEF4003D062C /* magnet_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magnet_man.png; sourceTree = "<group>"; };
+		A323381715D5FEF4003D062C /* doc_robot_gemini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doc_robot_gemini.png; sourceTree = "<group>"; };
+		A323381815D5FEF4003D062C /* shadow_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shadow_man.png; sourceTree = "<group>"; };
+		A323381915D5FEF4003D062C /* snake_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snake_man.png; sourceTree = "<group>"; };
+		A323381A15D5FEF4003D062C /* spark_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark_man.png; sourceTree = "<group>"; };
+		A323381B15D5FEF4003D062C /* top_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top_man.png; sourceTree = "<group>"; };
+		A323382815D5FFF8003D062C /* MMPGPasswordGeneratorRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPGPasswordGeneratorRegistry.h; sourceTree = "<group>"; };
+		A323382915D5FFF8003D062C /* MMPGPasswordGeneratorRegistry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMPGPasswordGeneratorRegistry.m; sourceTree = "<group>"; };
+		A323382B15D60186003D062C /* MMPGPasswordGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPGPasswordGenerator.h; sourceTree = "<group>"; };
+		A323382C15D60186003D062C /* MMPGPasswordGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMPGPasswordGenerator.m; sourceTree = "<group>"; };
+		A323382E15D6041E003D062C /* MM2PasswordGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MM2PasswordGenerator.h; sourceTree = "<group>"; };
+		A323382F15D6041E003D062C /* MM2PasswordGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MM2PasswordGenerator.m; sourceTree = "<group>"; };
+		A323383115D606F6003D062C /* Password.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Password.h; sourceTree = "<group>"; };
+		A323383215D606F7003D062C /* Password.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Password.m; sourceTree = "<group>"; };
 		A33C288715D2FEF8001EAC3F /* title_mm2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_mm2.png; sourceTree = "<group>"; };
 		A33C288915D2FF07001EAC3F /* title_mm3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_mm3.png; sourceTree = "<group>"; };
 		A33C289815D30611001EAC3F /* MMPGDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPGDataStore.h; sourceTree = "<group>"; };
@@ -127,9 +163,34 @@
 			name = Items;
 			sourceTree = "<group>";
 		};
+		A323380F15D5FE9A003D062C /* Mega Man 3 */ = {
+			isa = PBXGroup;
+			children = (
+				A323381015D5FEF4003D062C /* needle_man.png */,
+				A323381115D5FEF4003D062C /* hard_man.png */,
+				A323381215D5FEF4003D062C /* gemini_man.png */,
+				A323381315D5FEF4003D062C /* doc_robot_spark.png */,
+				A323381415D5FEF4003D062C /* doc_robot_snake.png */,
+				A323381515D5FEF4003D062C /* doc_robot_shadow.png */,
+				A323381615D5FEF4003D062C /* magnet_man.png */,
+				A323381715D5FEF4003D062C /* doc_robot_gemini.png */,
+				A323381815D5FEF4003D062C /* shadow_man.png */,
+				A323381915D5FEF4003D062C /* snake_man.png */,
+				A323381A15D5FEF4003D062C /* spark_man.png */,
+				A323381B15D5FEF4003D062C /* top_man.png */,
+			);
+			name = "Mega Man 3";
+			sourceTree = "<group>";
+		};
 		A33C289615D30491001EAC3F /* Password Generators */ = {
 			isa = PBXGroup;
 			children = (
+				A323382815D5FFF8003D062C /* MMPGPasswordGeneratorRegistry.h */,
+				A323382915D5FFF8003D062C /* MMPGPasswordGeneratorRegistry.m */,
+				A323382B15D60186003D062C /* MMPGPasswordGenerator.h */,
+				A323382C15D60186003D062C /* MMPGPasswordGenerator.m */,
+				A323382E15D6041E003D062C /* MM2PasswordGenerator.h */,
+				A323382F15D6041E003D062C /* MM2PasswordGenerator.m */,
 			);
 			name = "Password Generators";
 			sourceTree = "<group>";
@@ -164,6 +225,8 @@
 				A33C28B115D3232E001EAC3F /* Game.m */,
 				A33C28B615D32429001EAC3F /* Item.h */,
 				A33C28B715D32429001EAC3F /* Item.m */,
+				A323383115D606F6003D062C /* Password.h */,
+				A323383215D606F7003D062C /* Password.m */,
 				A33C289815D30611001EAC3F /* MMPGDataStore.h */,
 				A33C289915D30611001EAC3F /* MMPGDataStore.m */,
 				A33C28AD15D32293001EAC3F /* MMPGDataObject.h */,
@@ -218,8 +281,8 @@
 			children = (
 				A390726815D59BDD0052E8E6 /* Screenshots */,
 				A390726715D59BCE0052E8E6 /* Sprites */,
-				A3465E7C15CDE23900DFE0C0 /* Mega Man Password Generator-Info.plist */,
 				A3465E7D15CDE23900DFE0C0 /* InfoPlist.strings */,
+				A3465E7C15CDE23900DFE0C0 /* Mega Man Password Generator-Info.plist */,
 				A3465E8015CDE23900DFE0C0 /* main.m */,
 				A3465E8215CDE23900DFE0C0 /* Mega Man Password Generator-Prefix.pch */,
 			);
@@ -231,6 +294,7 @@
 			children = (
 				A323380C15D5F17C003D062C /* Items */,
 				A32337E615D5B2E6003D062C /* Mega Man 2 */,
+				A323380F15D5FE9A003D062C /* Mega Man 3 */,
 			);
 			name = Sprites;
 			sourceTree = "<group>";
@@ -313,6 +377,18 @@
 				A323380315D5E42C003D062C /* ItemSingleView.xib in Resources */,
 				A323380515D5E4F5003D062C /* ItemMultiView.xib in Resources */,
 				A323380E15D5F188003D062C /* etank.png in Resources */,
+				A323381C15D5FEF4003D062C /* needle_man.png in Resources */,
+				A323381D15D5FEF4003D062C /* hard_man.png in Resources */,
+				A323381E15D5FEF4003D062C /* gemini_man.png in Resources */,
+				A323381F15D5FEF4003D062C /* doc_robot_spark.png in Resources */,
+				A323382015D5FEF4003D062C /* doc_robot_snake.png in Resources */,
+				A323382115D5FEF4003D062C /* doc_robot_shadow.png in Resources */,
+				A323382215D5FEF4003D062C /* magnet_man.png in Resources */,
+				A323382315D5FEF4003D062C /* doc_robot_gemini.png in Resources */,
+				A323382415D5FEF4003D062C /* shadow_man.png in Resources */,
+				A323382515D5FEF4003D062C /* snake_man.png in Resources */,
+				A323382615D5FEF4003D062C /* spark_man.png in Resources */,
+				A323382715D5FEF4003D062C /* top_man.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +411,10 @@
 				A32337F915D5B411003D062C /* BossView.m in Sources */,
 				A323380815D5E761003D062C /* ItemSingleView.m in Sources */,
 				A323380B15D5E8BC003D062C /* ItemMultiView.m in Sources */,
+				A323382A15D5FFF8003D062C /* MMPGPasswordGeneratorRegistry.m in Sources */,
+				A323382D15D60186003D062C /* MMPGPasswordGenerator.m in Sources */,
+				A323383015D6041E003D062C /* MM2PasswordGenerator.m in Sources */,
+				A323383315D606F7003D062C /* Password.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
