@@ -108,7 +108,7 @@
             
             // hook up the itemView to update the label with the new
             // value whenever the value changes
-            [itemView.stepper addTarget:itemView action:@selector(updateItemCount:) forControlEvents:UIControlEventValueChanged];
+            [itemView.stepper addTarget:itemView action:@selector(updateItemCount:) forControlEvents:UIControlEventValueChanged];            
         }
         else {
             NSArray* xib = [[NSBundle mainBundle] loadNibNamed:@"ItemSingleView" owner:self options:nil];
@@ -122,7 +122,7 @@
         }
         
         // advance the origin numbers for the next item window
-        origin_y += 64;
+        origin_y += CHOICE_HEIGHT;
     }
 }
 

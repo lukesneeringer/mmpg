@@ -14,3 +14,10 @@
 @property (weak, nonatomic) IBOutlet UIImageView* spriteView;
 
 @end
+
+
+@protocol ItemSingleViewDelegate
+
+- (void) itemSingleView:(ItemSingleView*)isv didSetItemPossessedStatus:(BOOL)possessedStatus;
+
+@end

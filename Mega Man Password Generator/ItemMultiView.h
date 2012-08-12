@@ -15,3 +15,10 @@
 @property (weak, nonatomic) IBOutlet UIStepper* stepper;
 
 @end
+
+
+@protocol ItemMultiViewDelegate
+
+- (void) itemMultiView:(ItemMultiView*)imv didSetItemStockCount:(NSUInteger)stockCount;
+
+@end

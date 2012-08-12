@@ -15,7 +15,7 @@
 @synthesize gridView;
 
 - (id) initWithPassword:(Password*)passwd forGame:(Game*)aGame {
-    self = [super init];
+    self = [super initWithNibName:nil bundle:nil];
     if (self) {
         password = passwd;
         game = aGame;
@@ -43,7 +43,6 @@
 
 - (void) didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

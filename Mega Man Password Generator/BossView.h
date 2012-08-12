@@ -14,3 +14,10 @@
 @property (weak, nonatomic) IBOutlet UIImageView* spriteView;
 
 @end
+
+
+@protocol BossViewDelegate
+
+- (void) bossView:(BossView*)bv didChangeBossDefeatedStatus:(BOOL)defeatedStatus;
+
+@end
