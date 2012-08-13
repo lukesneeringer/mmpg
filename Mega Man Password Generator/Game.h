@@ -18,6 +18,11 @@
 @property (nonatomic, strong, readonly) NSMutableArray* bosses;
 @property (nonatomic, strong, readonly) NSMutableArray* items;
 
+@property (nonatomic, readonly) NSUInteger gridColumns;
+@property (nonatomic, readonly) NSUInteger gridRows;
+@property (nonatomic, readonly) NSUInteger cellHeight;
+@property (nonatomic, readonly) NSUInteger cellWidth;
+
 - (Boss*) bossWithCode:(NSString*)code;
 - (Item*) itemWithCode:(NSString*)code;
 

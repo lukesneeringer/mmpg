@@ -3,6 +3,14 @@
 <plist version="1.0">
 <array>
 	<dict>
+		<key>cellHeight</key>
+		<integer>16</integer>
+		<key>cellWidth</key>
+		<integer>16</integer>
+		<key>gridColumns</key>
+		<integer>5</integer>
+		<key>gridRows</key>
+		<integer>5</integer>
 		<key>system</key>
 		<string>NES</string>
 		<key>code</key>

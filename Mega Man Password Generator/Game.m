@@ -13,6 +13,8 @@
 @implementation Game
 
 @synthesize system, year, bosses, items;
+@synthesize cellHeight, cellWidth, gridColumns, gridRows;
+
 
 - (Boss*) bossWithCode:(NSString*)code {
     for (int i = 0; i < [self.bosses count]; i += 1) {
