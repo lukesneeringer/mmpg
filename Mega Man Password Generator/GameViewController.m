@@ -14,9 +14,8 @@
 #import "Item.h"
 
 // view objects for individual items to be controlled
-#import "BossView.h"
-#import "ItemMultiView.h"
-#import "ItemSingleView.h"
+#import "BossViewController.h"
+#import "ItemViewController.h"
 #import "PasswordViewController.h"
 
 // and we'll need the password generator and registry
@@ -36,11 +35,7 @@
         
         // set the title bar to the name of the game
         // being played
-        self.navigationItem.title = game.label;
-        
-        // populate this view with boss views for each
-        // of the bosses in the game
-
+        self.navigationItem.title = game.label;        
     }
     return self;
 }
@@ -71,14 +66,8 @@
         CGRect bossViewFrame = CGRectMake(0, origin_y, width, CHOICE_HEIGHT);
         
         // instantiate the boss view and add it here
-        NSArray* xib = [[NSBundle mainBundle] loadNibNamed:@"BossView" owner:self options:nil];
-        BossView* bossView = [xib objectAtIndex:0];
-        bossView.frame = bossViewFrame;
-        [choicesView addSubview:bossView];
-        
-        // set the image on the boss view appropriately
-        UIImage* bossImage = [UIImage imageNamed:[NSString stringWithFormat:@"%@.png", boss.code]];
-        bossView.spriteView.image = bossImage;
+        BossViewController* bvc = [[BossViewController alloc] initWithBoss:boss andFrame:bossViewFrame];
+        [self addChildViewController:bvc];
         
         // advance the origin numbers for the next boss view window to be shown
         origin_y += CHOICE_HEIGHT;
@@ -92,38 +81,18 @@
         CGRect itemViewFrame = CGRectMake(0, origin_y, width, CHOICE_HEIGHT);
         
         // instantiate the appropriate item view
-        if (item.max > 1) {
-            NSArray* xib = [[NSBundle mainBundle] loadNibNamed:@"ItemMultiView" owner:self options:nil];
-            ItemMultiView* itemView = [xib objectAtIndex:0];
-            itemView.frame = itemViewFrame;
-            [choicesView addSubview:itemView];
-            
-            // set the image on the item view appropriately
-            UIImage* itemImage = [UIImage imageNamed:[NSString stringWithFormat:@"%@.png", item.code]];
-            itemView.spriteView.image = itemImage;
-            
-            // hook up the stepper to move from the min to the max
-            itemView.stepper.minimumValue = item.min;
-            itemView.stepper.maximumValue = item.max;
-            
-            // hook up the itemView to update the label with the new
-            // value whenever the value changes
-            [itemView.stepper addTarget:itemView action:@selector(updateItemCount:) forControlEvents:UIControlEventValueChanged];            
-        }
-        else {
-            NSArray* xib = [[NSBundle mainBundle] loadNibNamed:@"ItemSingleView" owner:self options:nil];
-            ItemSingleView* itemView = [xib objectAtIndex:0];
-            itemView.frame = itemViewFrame;
-            [choicesView addSubview:itemView];
-            
-            // set the image on the item view appropriately
-            UIImage* itemImage = [UIImage imageNamed:[NSString stringWithFormat:@"%@.png", item.code]];
-            itemView.spriteView.image = itemImage;
-        }
+        ItemViewController* ivc = [[ItemViewController alloc] initWithItem:item andFrame:itemViewFrame];
+        [self addChildViewController:ivc];
         
         // advance the origin numbers for the next item window
         origin_y += CHOICE_HEIGHT;
     }
+}
+
+
+- (void) addChildViewController:(UIViewController*)childController {
+    [super addChildViewController:childController];
+    [choicesView addSubview:childController.view];
 }
 
 

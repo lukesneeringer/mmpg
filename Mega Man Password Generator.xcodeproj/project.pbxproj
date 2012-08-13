@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A3038F0315D495BE009915DB /* GameSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3038F0215D495BE009915DB /* GameSelectionViewController.m */; };
-		A32337E415D5AFC7003D062C /* BossView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A32337E315D5AFC7003D062C /* BossView.xib */; };
+		A32337E415D5AFC7003D062C /* BossViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A32337E315D5AFC7003D062C /* BossViewController.xib */; };
 		A32337EC15D5B307003D062C /* air_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A32337E715D5B307003D062C /* air_man.png */; };
 		A32337ED15D5B307003D062C /* bubble_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A32337E815D5B307003D062C /* bubble_man.png */; };
 		A32337EE15D5B307003D062C /* crash_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A32337E915D5B307003D062C /* crash_man.png */; };
@@ -17,11 +17,10 @@
 		A32337F415D5B31A003D062C /* metal_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A32337F115D5B31A003D062C /* metal_man.png */; };
 		A32337F515D5B31A003D062C /* quick_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A32337F215D5B31A003D062C /* quick_man.png */; };
 		A32337F615D5B31A003D062C /* wood_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A32337F315D5B31A003D062C /* wood_man.png */; };
-		A32337F915D5B411003D062C /* BossView.m in Sources */ = {isa = PBXBuildFile; fileRef = A32337F815D5B411003D062C /* BossView.m */; };
-		A323380315D5E42C003D062C /* ItemSingleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A323380215D5E42C003D062C /* ItemSingleView.xib */; };
-		A323380515D5E4F5003D062C /* ItemMultiView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A323380415D5E4F5003D062C /* ItemMultiView.xib */; };
-		A323380815D5E761003D062C /* ItemSingleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A323380715D5E761003D062C /* ItemSingleView.m */; };
-		A323380B15D5E8BC003D062C /* ItemMultiView.m in Sources */ = {isa = PBXBuildFile; fileRef = A323380A15D5E8BC003D062C /* ItemMultiView.m */; };
+		A32337F915D5B411003D062C /* BossViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A32337F815D5B411003D062C /* BossViewController.m */; };
+		A323380315D5E42C003D062C /* ItemViewControllerSingle.xib in Resources */ = {isa = PBXBuildFile; fileRef = A323380215D5E42C003D062C /* ItemViewControllerSingle.xib */; };
+		A323380515D5E4F5003D062C /* ItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A323380415D5E4F5003D062C /* ItemViewController.xib */; };
+		A323380B15D5E8BC003D062C /* ItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A323380A15D5E8BC003D062C /* ItemViewController.m */; };
 		A323380E15D5F188003D062C /* etank.png in Resources */ = {isa = PBXBuildFile; fileRef = A323380D15D5F188003D062C /* etank.png */; };
 		A323381C15D5FEF4003D062C /* needle_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A323381015D5FEF4003D062C /* needle_man.png */; };
 		A323381D15D5FEF4003D062C /* hard_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A323381115D5FEF4003D062C /* hard_man.png */; };
@@ -66,7 +65,7 @@
 /* Begin PBXFileReference section */
 		A3038F0115D495BE009915DB /* GameSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameSelectionViewController.h; sourceTree = "<group>"; };
 		A3038F0215D495BE009915DB /* GameSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameSelectionViewController.m; sourceTree = "<group>"; };
-		A32337E315D5AFC7003D062C /* BossView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BossView.xib; sourceTree = "<group>"; };
+		A32337E315D5AFC7003D062C /* BossViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BossViewController.xib; sourceTree = "<group>"; };
 		A32337E715D5B307003D062C /* air_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = air_man.png; sourceTree = "<group>"; };
 		A32337E815D5B307003D062C /* bubble_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble_man.png; sourceTree = "<group>"; };
 		A32337E915D5B307003D062C /* crash_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crash_man.png; sourceTree = "<group>"; };
@@ -75,14 +74,12 @@
 		A32337F115D5B31A003D062C /* metal_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metal_man.png; sourceTree = "<group>"; };
 		A32337F215D5B31A003D062C /* quick_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quick_man.png; sourceTree = "<group>"; };
 		A32337F315D5B31A003D062C /* wood_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood_man.png; sourceTree = "<group>"; };
-		A32337F715D5B411003D062C /* BossView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BossView.h; sourceTree = "<group>"; };
-		A32337F815D5B411003D062C /* BossView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BossView.m; sourceTree = "<group>"; };
-		A323380215D5E42C003D062C /* ItemSingleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemSingleView.xib; sourceTree = "<group>"; };
-		A323380415D5E4F5003D062C /* ItemMultiView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemMultiView.xib; sourceTree = "<group>"; };
-		A323380615D5E760003D062C /* ItemSingleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemSingleView.h; sourceTree = "<group>"; };
-		A323380715D5E761003D062C /* ItemSingleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemSingleView.m; sourceTree = "<group>"; };
-		A323380915D5E8BC003D062C /* ItemMultiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemMultiView.h; sourceTree = "<group>"; };
-		A323380A15D5E8BC003D062C /* ItemMultiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemMultiView.m; sourceTree = "<group>"; };
+		A32337F715D5B411003D062C /* BossViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BossViewController.h; sourceTree = "<group>"; };
+		A32337F815D5B411003D062C /* BossViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BossViewController.m; sourceTree = "<group>"; };
+		A323380215D5E42C003D062C /* ItemViewControllerSingle.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemViewControllerSingle.xib; sourceTree = "<group>"; };
+		A323380415D5E4F5003D062C /* ItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemViewController.xib; sourceTree = "<group>"; };
+		A323380915D5E8BC003D062C /* ItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemViewController.h; sourceTree = "<group>"; };
+		A323380A15D5E8BC003D062C /* ItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemViewController.m; sourceTree = "<group>"; };
 		A323380D15D5F188003D062C /* etank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = etank.png; sourceTree = "<group>"; };
 		A323381015D5FEF4003D062C /* needle_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = needle_man.png; sourceTree = "<group>"; };
 		A323381115D5FEF4003D062C /* hard_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hard_man.png; sourceTree = "<group>"; };
@@ -219,15 +216,13 @@
 				A390726115D599300052E8E6 /* GameViewController.h */,
 				A390726215D599300052E8E6 /* GameViewController.m */,
 				A390726315D599300052E8E6 /* GameViewController.xib */,
-				A32337F715D5B411003D062C /* BossView.h */,
-				A32337F815D5B411003D062C /* BossView.m */,
-				A32337E315D5AFC7003D062C /* BossView.xib */,
-				A323380615D5E760003D062C /* ItemSingleView.h */,
-				A323380715D5E761003D062C /* ItemSingleView.m */,
-				A323380215D5E42C003D062C /* ItemSingleView.xib */,
-				A323380915D5E8BC003D062C /* ItemMultiView.h */,
-				A323380A15D5E8BC003D062C /* ItemMultiView.m */,
-				A323380415D5E4F5003D062C /* ItemMultiView.xib */,
+				A32337F715D5B411003D062C /* BossViewController.h */,
+				A32337F815D5B411003D062C /* BossViewController.m */,
+				A32337E315D5AFC7003D062C /* BossViewController.xib */,
+				A323380915D5E8BC003D062C /* ItemViewController.h */,
+				A323380A15D5E8BC003D062C /* ItemViewController.m */,
+				A323380415D5E4F5003D062C /* ItemViewController.xib */,
+				A323380215D5E42C003D062C /* ItemViewControllerSingle.xib */,
 				A398A8E715D6F57F00ED23EE /* PasswordViewController.h */,
 				A398A8E815D6F57F00ED23EE /* PasswordViewController.m */,
 				A398A8E915D6F57F00ED23EE /* PasswordViewController.xib */,
@@ -395,7 +390,7 @@
 				A33C288A15D2FF07001EAC3F /* title_mm3.png in Resources */,
 				A33C28AC15D31747001EAC3F /* MMPGData.plist in Resources */,
 				A390726515D599300052E8E6 /* GameViewController.xib in Resources */,
-				A32337E415D5AFC7003D062C /* BossView.xib in Resources */,
+				A32337E415D5AFC7003D062C /* BossViewController.xib in Resources */,
 				A32337EC15D5B307003D062C /* air_man.png in Resources */,
 				A32337ED15D5B307003D062C /* bubble_man.png in Resources */,
 				A32337EE15D5B307003D062C /* crash_man.png in Resources */,
@@ -404,8 +399,8 @@
 				A32337F415D5B31A003D062C /* metal_man.png in Resources */,
 				A32337F515D5B31A003D062C /* quick_man.png in Resources */,
 				A32337F615D5B31A003D062C /* wood_man.png in Resources */,
-				A323380315D5E42C003D062C /* ItemSingleView.xib in Resources */,
-				A323380515D5E4F5003D062C /* ItemMultiView.xib in Resources */,
+				A323380315D5E42C003D062C /* ItemViewControllerSingle.xib in Resources */,
+				A323380515D5E4F5003D062C /* ItemViewController.xib in Resources */,
 				A323380E15D5F188003D062C /* etank.png in Resources */,
 				A323381C15D5FEF4003D062C /* needle_man.png in Resources */,
 				A323381D15D5FEF4003D062C /* hard_man.png in Resources */,
@@ -442,9 +437,8 @@
 				A33C28B815D32429001EAC3F /* Item.m in Sources */,
 				A3038F0315D495BE009915DB /* GameSelectionViewController.m in Sources */,
 				A390726415D599300052E8E6 /* GameViewController.m in Sources */,
-				A32337F915D5B411003D062C /* BossView.m in Sources */,
-				A323380815D5E761003D062C /* ItemSingleView.m in Sources */,
-				A323380B15D5E8BC003D062C /* ItemMultiView.m in Sources */,
+				A32337F915D5B411003D062C /* BossViewController.m in Sources */,
+				A323380B15D5E8BC003D062C /* ItemViewController.m in Sources */,
 				A323382A15D5FFF8003D062C /* MMPGPasswordGeneratorRegistry.m in Sources */,
 				A323382D15D60186003D062C /* MMPGPasswordGenerator.m in Sources */,
 				A323383015D6041E003D062C /* MM2PasswordGenerator.m in Sources */,
