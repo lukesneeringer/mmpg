@@ -48,8 +48,8 @@
         
         // calculate my offset from center for the column
         CGRect dotFrame = CGRectMake(
-            center.x + game.cellWidth * (unit.column - 1 - (game.gridColumns / 2.0)),
-            center.y + game.cellHeight * (unit.row - 'A' - (game.gridRows / 2.0)),
+            center.x + game.xOffset + game.cellWidth * (unit.column - 1 - (game.gridColumns / 2.0)),
+            center.y + game.yOffset + game.cellHeight * (unit.row - 'A' - (game.gridRows / 2.0)),
             game.cellWidth,
             game.cellHeight
         );

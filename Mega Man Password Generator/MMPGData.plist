@@ -11,6 +11,10 @@
 		<integer>5</integer>
 		<key>gridRows</key>
 		<integer>5</integer>
+		<key>xOffset</key>
+		<integer>2</integer>
+		<key>yOffset</key>
+		<integer>-4</integer>
 		<key>system</key>
 		<string>NES</string>
 		<key>code</key>
