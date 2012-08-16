@@ -26,7 +26,7 @@
     // add the red dot for the appropriate number of energy tanks
     // (A1 == 0 through A5 == 4)
     [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:'A' andColumn:etanks + 1]];
-
+    
     // now assign the appropriate dot for Air Man
     Boss* airMan = [game bossWithCode:@"air_man"];
     if (airMan.defeated) {
@@ -85,7 +85,7 @@
         [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:'C' andColumn:etanks + 1]];
     }
     else {
-        if (etanks > 2) {
+        if (etanks >= 2) {
             [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:'B' andColumn:etanks - 1]];
         }
         else {
