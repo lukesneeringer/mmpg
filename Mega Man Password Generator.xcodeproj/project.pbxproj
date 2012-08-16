@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A3038F0315D495BE009915DB /* GameSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3038F0215D495BE009915DB /* GameSelectionViewController.m */; };
 		A31E826915DDA98600133B75 /* mm3_grid.png in Resources */ = {isa = PBXBuildFile; fileRef = A31E826815DDA98600133B75 /* mm3_grid.png */; };
+		A317848C15DC6D9600A79A51 /* mm2_grid.png in Resources */ = {isa = PBXBuildFile; fileRef = A317848B15DC6D9600A79A51 /* mm2_grid.png */; };
 		A32337E415D5AFC7003D062C /* BossViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A32337E315D5AFC7003D062C /* BossViewController.xib */; };
 		A32337EC15D5B307003D062C /* air_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A32337E715D5B307003D062C /* air_man.png */; };
 		A32337ED15D5B307003D062C /* bubble_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A32337E815D5B307003D062C /* bubble_man.png */; };
@@ -58,7 +59,6 @@
 		A398A8E515D6F1A400ED23EE /* MM3PasswordGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = A398A8E415D6F1A400ED23EE /* MM3PasswordGenerator.m */; };
 		A398A8EA15D6F57F00ED23EE /* PasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A398A8E815D6F57F00ED23EE /* PasswordViewController.m */; };
 		A398A8EB15D6F57F00ED23EE /* PasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A398A8E915D6F57F00ED23EE /* PasswordViewController.xib */; };
-		A398A8F515D701E500ED23EE /* mm2_grid.png in Resources */ = {isa = PBXBuildFile; fileRef = A398A8F415D701E500ED23EE /* mm2_grid.png */; };
 		A398A8F915D7034800ED23EE /* blue_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = A398A8F715D7034800ED23EE /* blue_dot.png */; };
 		A398A8FA15D7034800ED23EE /* red_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = A398A8F815D7034800ED23EE /* red_dot.png */; };
 /* End PBXBuildFile section */
@@ -67,6 +67,7 @@
 		A3038F0115D495BE009915DB /* GameSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameSelectionViewController.h; sourceTree = "<group>"; };
 		A3038F0215D495BE009915DB /* GameSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameSelectionViewController.m; sourceTree = "<group>"; };
 		A31E826815DDA98600133B75 /* mm3_grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mm3_grid.png; sourceTree = "<group>"; };
+		A317848B15DC6D9600A79A51 /* mm2_grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mm2_grid.png; sourceTree = "<group>"; };
 		A32337E315D5AFC7003D062C /* BossViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BossViewController.xib; sourceTree = "<group>"; };
 		A32337E715D5B307003D062C /* air_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = air_man.png; sourceTree = "<group>"; };
 		A32337E815D5B307003D062C /* bubble_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble_man.png; sourceTree = "<group>"; };
@@ -134,7 +135,6 @@
 		A398A8E715D6F57F00ED23EE /* PasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordViewController.h; sourceTree = "<group>"; };
 		A398A8E815D6F57F00ED23EE /* PasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordViewController.m; sourceTree = "<group>"; };
 		A398A8E915D6F57F00ED23EE /* PasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PasswordViewController.xib; sourceTree = "<group>"; };
-		A398A8F415D701E500ED23EE /* mm2_grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mm2_grid.png; sourceTree = "<group>"; };
 		A398A8F715D7034800ED23EE /* blue_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_dot.png; sourceTree = "<group>"; };
 		A398A8F815D7034800ED23EE /* red_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_dot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -418,10 +418,10 @@
 				A323382615D5FEF4003D062C /* spark_man.png in Resources */,
 				A323382715D5FEF4003D062C /* top_man.png in Resources */,
 				A398A8EB15D6F57F00ED23EE /* PasswordViewController.xib in Resources */,
-				A398A8F515D701E500ED23EE /* mm2_grid.png in Resources */,
 				A398A8F915D7034800ED23EE /* blue_dot.png in Resources */,
 				A398A8FA15D7034800ED23EE /* red_dot.png in Resources */,
 				A31E826915DDA98600133B75 /* mm3_grid.png in Resources */,
+				A317848C15DC6D9600A79A51 /* mm2_grid.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
