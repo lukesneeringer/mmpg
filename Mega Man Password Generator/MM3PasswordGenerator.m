@@ -20,7 +20,7 @@
     Item* energyTanks = [game.items objectAtIndex:0];
     NSArray* energyTanksArray = [NSArray arrayWithObjects:@"C5", @"E6", @"E4", @"B4", @"A5", @"C1", @"D2", @"C3", @"F2", @"A6", nil];
     NSString* coordString = [energyTanksArray objectAtIndex:energyTanks.stock];
-    [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:[coordString characterAtIndex:0] andColumn:(int)[coordString characterAtIndex:1]]];
+    [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:[coordString characterAtIndex:0] andColumn:(int)[coordString characterAtIndex:1] - 48]];
     
     // return back the final password
     return [[Password alloc] initWithUnits:units];

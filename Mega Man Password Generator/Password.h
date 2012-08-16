@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-
 @interface Password : NSObject
 
 @property (nonatomic, strong, readonly) NSArray* units;
