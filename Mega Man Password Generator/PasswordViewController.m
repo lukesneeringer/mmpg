@@ -54,6 +54,17 @@
             game.cellHeight
         );
         
+        // if there's an xDivide value, then account for that
+        // (this basically only affects Mega Man 3)
+        if (game.yDivide) {
+            if (unit.row >= 'D') {
+                dotFrame.origin.y += (game.yDivide / 2);
+            }
+            else {
+                dotFrame.origin.y -= (game.yDivide / 2);
+            }
+        }
+        
         // now place the appropriate image in the spot
         UIImage* image = [UIImage imageNamed:unit.imageCode];
         UIImageView* imageView = [[UIImageView alloc] initWithImage:image];

@@ -149,6 +149,8 @@
 		<integer>7</integer>
 		<key>yOffset</key>
 		<integer>-20</integer>
+		<key>yDivide</key>
+		<integer>8</integer>
 		<key>system</key>
 		<string>NES</string>
 		<key>code</key>

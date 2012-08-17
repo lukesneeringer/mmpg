@@ -36,6 +36,45 @@
         [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:'F' andColumn:6]];
     }
     
+    // set the dot for Magnet Man and Needle Man
+    Boss* magnetMan = [game bossWithCode:@"magnet_man"];
+    Boss* needleMan = [game bossWithCode:@"needle_man"];
+    if (magnetMan.defeated && needleMan.defeated) {
+        [units addObject:[[PasswordUnit alloc] initWithImageCode:@"blue_dot" atRow:'D' andColumn:3]];
+    }
+    else if (magnetMan.defeated) {
+        [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:'F' andColumn:5]];
+    }
+    else if (needleMan.defeated) {
+        [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:'D' andColumn:3]];
+    }
+    
+    // set the dot for Hard Man and Gemini Man
+    Boss* hardMan = [game bossWithCode:@"hard_man"];
+    Boss* geminiMan = [game bossWithCode:@"gemini_man"];
+    if (hardMan.defeated && geminiMan.defeated) {
+        [units addObject:[[PasswordUnit alloc] initWithImageCode:@"blue_dot" atRow:'B' andColumn:5]];
+    }
+    else if (hardMan.defeated) {
+        [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:'C' andColumn:4]];
+    }
+    else if (geminiMan.defeated) {
+        [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:'B' andColumn:5]];
+    }
+    
+    // set the dot for Spark Man and Shadow Man
+    Boss* sparkMan = [game bossWithCode:@"spark_man"];
+    Boss* shadowMan = [game bossWithCode:@"shadow_man"];
+    if (sparkMan.defeated && shadowMan.defeated) {
+        [units addObject:[[PasswordUnit alloc] initWithImageCode:@"blue_dot" atRow:'F' andColumn:4]];
+    }
+    else if (sparkMan.defeated) {
+        [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:'F' andColumn:4]];
+    }
+    else if (shadowMan.defeated) {
+        [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:'D' andColumn:6]];
+    }
+    
     // return back the final password
     return [[Password alloc] initWithUnits:units];
 }

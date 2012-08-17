@@ -13,7 +13,7 @@
 @implementation Game
 
 @synthesize system, year, bosses, items;
-@synthesize cellHeight, cellWidth, gridColumns, gridRows;
+@synthesize cellHeight, cellWidth, gridColumns, gridRows, xOffset, yOffset, yDivide;
 
 
 - (Boss*) bossWithCode:(NSString*)code {

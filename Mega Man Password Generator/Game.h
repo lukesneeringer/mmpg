@@ -24,6 +24,7 @@
 @property (nonatomic, readonly) NSUInteger cellWidth;
 @property (nonatomic, readonly) NSInteger xOffset;
 @property (nonatomic, readonly) NSInteger yOffset;
+@property (nonatomic, readonly) NSUInteger yDivide;
 
 - (Boss*) bossWithCode:(NSString*)code;
 - (Item*) itemWithCode:(NSString*)code;
