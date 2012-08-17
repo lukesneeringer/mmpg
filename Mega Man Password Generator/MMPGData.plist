@@ -270,6 +270,46 @@
 				<key>tier</key>
 				<integer>0</integer>
 			</dict>
+			<dict>
+				<key>label</key>
+				<string>Doc Robot (Gemini)</string>
+				<key>code</key>
+				<string>doc_robot_gemini</string>
+				<key>tier</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>label</key>
+				<string>Doc Robot (Shadow)</string>
+				<key>code</key>
+				<string>doc_robot_shadow</string>
+				<key>tier</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>label</key>
+				<string>Doc Robot (Snake)</string>
+				<key>code</key>
+				<string>doc_robot_snake</string>
+				<key>tier</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>label</key>
+				<string>Doc Robot (Spark)</string>
+				<key>code</key>
+				<string>doc_robot_spark</string>
+				<key>tier</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>label</key>
+				<string>Break Man</string>
+				<key>code</key>
+				<string>break_man</string>
+				<key>tier</key>
+				<integer>2</integer>
+			</dict>
 		</array>
 	</dict>
 </array>

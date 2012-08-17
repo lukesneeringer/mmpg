@@ -75,6 +75,38 @@
         [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:'D' andColumn:6]];
     }
     
+    // set the dot for the Gemini and Needle Doc Robot stages
+    Boss* docRobotGemini = [game bossWithCode:@"doc_robot_gemini"];
+    Boss* docRobotNeedle = [game bossWithCode:@"doc_robot_needle"];
+    if (docRobotGemini.defeated && docRobotNeedle.defeated) {
+        [units addObject:[[PasswordUnit alloc] initWithImageCode:@"blue_dot" atRow:'B' andColumn:2]];
+    }
+    else if (docRobotGemini.defeated) {
+        [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:'B' andColumn:6]];
+    }
+    else if (docRobotNeedle.defeated) {
+        [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:'B' andColumn:2]];
+    }
+    
+    // set the dot for the Shadow and Spark Doc Robot stages
+    Boss* docRobotShadow = [game bossWithCode:@"doc_robot_shadow"];
+    Boss* docRobotSpark = [game bossWithCode:@"doc_robot_spark"];
+    if (docRobotShadow.defeated && docRobotSpark.defeated) {
+        [units addObject:[[PasswordUnit alloc] initWithImageCode:@"blue_dot" atRow:'A' andColumn:1]];
+    }
+    else if (docRobotShadow.defeated) {
+        [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:'A' andColumn:4]];
+    }
+    else if (docRobotSpark.defeated) {
+        [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:'A' andColumn:1]];
+    }
+    
+    // set the dot for Break Man
+    Boss* breakMan = [game bossWithCode:@"break_man"];
+    if (breakMan.defeated) {
+        [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:'E' andColumn:1]];
+    }
+    
     // return back the final password
     return [[Password alloc] initWithUnits:units];
 }

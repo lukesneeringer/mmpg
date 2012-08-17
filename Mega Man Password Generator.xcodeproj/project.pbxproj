@@ -54,6 +54,7 @@
 		A3465E7F15CDE23900DFE0C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3465E7D15CDE23900DFE0C0 /* InfoPlist.strings */; };
 		A3465E8115CDE23900DFE0C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3465E8015CDE23900DFE0C0 /* main.m */; };
 		A3465E8515CDE23900DFE0C0 /* MMPGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3465E8415CDE23900DFE0C0 /* MMPGAppDelegate.m */; };
+		A34ACA8D15DF0EF700AA6869 /* break_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A34ACA8C15DF0EF700AA6869 /* break_man.png */; };
 		A390726415D599300052E8E6 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A390726215D599300052E8E6 /* GameViewController.m */; };
 		A390726515D599300052E8E6 /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A390726315D599300052E8E6 /* GameViewController.xib */; };
 		A398A8E515D6F1A400ED23EE /* MM3PasswordGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = A398A8E415D6F1A400ED23EE /* MM3PasswordGenerator.m */; };
@@ -127,6 +128,7 @@
 		A3465E8215CDE23900DFE0C0 /* Mega Man Password Generator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mega Man Password Generator-Prefix.pch"; sourceTree = "<group>"; };
 		A3465E8315CDE23900DFE0C0 /* MMPGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMPGAppDelegate.h; sourceTree = "<group>"; };
 		A3465E8415CDE23900DFE0C0 /* MMPGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMPGAppDelegate.m; sourceTree = "<group>"; };
+		A34ACA8C15DF0EF700AA6869 /* break_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = break_man.png; sourceTree = "<group>"; };
 		A390726115D599300052E8E6 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		A390726215D599300052E8E6 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		A390726315D599300052E8E6 /* GameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
@@ -179,14 +181,15 @@
 		A323380F15D5FE9A003D062C /* Mega Man 3 */ = {
 			isa = PBXGroup;
 			children = (
+				A34ACA8C15DF0EF700AA6869 /* break_man.png */,
 				A323381015D5FEF4003D062C /* needle_man.png */,
 				A323381115D5FEF4003D062C /* hard_man.png */,
 				A323381215D5FEF4003D062C /* gemini_man.png */,
+				A323381715D5FEF4003D062C /* doc_robot_gemini.png */,
 				A323381315D5FEF4003D062C /* doc_robot_spark.png */,
 				A323381415D5FEF4003D062C /* doc_robot_snake.png */,
 				A323381515D5FEF4003D062C /* doc_robot_shadow.png */,
 				A323381615D5FEF4003D062C /* magnet_man.png */,
-				A323381715D5FEF4003D062C /* doc_robot_gemini.png */,
 				A323381815D5FEF4003D062C /* shadow_man.png */,
 				A323381915D5FEF4003D062C /* snake_man.png */,
 				A323381A15D5FEF4003D062C /* spark_man.png */,
@@ -422,6 +425,7 @@
 				A398A8FA15D7034800ED23EE /* red_dot.png in Resources */,
 				A31784A015DDB40600A79A51 /* mm3_grid.png in Resources */,
 				A31784A115DDB40600A79A51 /* mm2_grid.png in Resources */,
+				A34ACA8D15DF0EF700AA6869 /* break_man.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
