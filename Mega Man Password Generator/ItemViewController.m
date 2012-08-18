@@ -20,6 +20,10 @@
     if (self) {
         item = itemObj;
         self.view.frame = frame;
+        
+        // set the item label and stepper to the item's stock
+        stepper.value = (double)item.stock;
+        itemCountLabel.text = [NSString stringWithFormat:@"%d", (int)item.stock];
     }
     return self;
 }

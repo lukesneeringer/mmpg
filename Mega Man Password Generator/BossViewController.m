@@ -18,6 +18,9 @@
     if (self) {
         boss = bossObj;
         self.view.frame = frame;
+        
+        // set the boss' defeated status in the view
+        segmentedControl.selectedSegmentIndex = boss.defeated;
     }
     return self;
 }
