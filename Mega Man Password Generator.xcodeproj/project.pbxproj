@@ -40,6 +40,16 @@
 		A323382D15D60186003D062C /* MMPGPasswordGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = A323382C15D60186003D062C /* MMPGPasswordGenerator.m */; };
 		A323383015D6041E003D062C /* MM2PasswordGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = A323382F15D6041E003D062C /* MM2PasswordGenerator.m */; };
 		A323383315D606F7003D062C /* Password.m in Sources */ = {isa = PBXBuildFile; fileRef = A323383215D606F7003D062C /* Password.m */; };
+		A32BEAC715E08E9C004B972D /* balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = A32BEABD15E08E9C004B972D /* balloon.png */; };
+		A32BEAC815E08E9C004B972D /* bright_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A32BEABE15E08E9C004B972D /* bright_man.png */; };
+		A32BEAC915E08E9C004B972D /* dive_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A32BEABF15E08E9C004B972D /* dive_man.png */; };
+		A32BEACA15E08E9C004B972D /* drill_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A32BEAC015E08E9C004B972D /* drill_man.png */; };
+		A32BEACB15E08E9C004B972D /* dust_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A32BEAC115E08E9C004B972D /* dust_man.png */; };
+		A32BEACC15E08E9C004B972D /* pharaoh_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A32BEAC215E08E9C004B972D /* pharaoh_man.png */; };
+		A32BEACD15E08E9C004B972D /* ring_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A32BEAC315E08E9C004B972D /* ring_man.png */; };
+		A32BEACE15E08E9C004B972D /* skull_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A32BEAC415E08E9C004B972D /* skull_man.png */; };
+		A32BEACF15E08E9C004B972D /* toad_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A32BEAC515E08E9C004B972D /* toad_man.png */; };
+		A32BEAD015E08E9C004B972D /* wire.png in Resources */ = {isa = PBXBuildFile; fileRef = A32BEAC615E08E9C004B972D /* wire.png */; };
 		A33C288815D2FEF8001EAC3F /* title_mm2.png in Resources */ = {isa = PBXBuildFile; fileRef = A33C288715D2FEF8001EAC3F /* title_mm2.png */; };
 		A33C288A15D2FF07001EAC3F /* title_mm3.png in Resources */ = {isa = PBXBuildFile; fileRef = A33C288915D2FF07001EAC3F /* title_mm3.png */; };
 		A33C289A15D30611001EAC3F /* MMPGDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = A33C289915D30611001EAC3F /* MMPGDataStore.m */; };
@@ -105,6 +115,16 @@
 		A323382F15D6041E003D062C /* MM2PasswordGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MM2PasswordGenerator.m; sourceTree = "<group>"; };
 		A323383115D606F6003D062C /* Password.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Password.h; sourceTree = "<group>"; };
 		A323383215D606F7003D062C /* Password.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Password.m; sourceTree = "<group>"; };
+		A32BEABD15E08E9C004B972D /* balloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balloon.png; sourceTree = "<group>"; };
+		A32BEABE15E08E9C004B972D /* bright_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bright_man.png; sourceTree = "<group>"; };
+		A32BEABF15E08E9C004B972D /* dive_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dive_man.png; sourceTree = "<group>"; };
+		A32BEAC015E08E9C004B972D /* drill_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drill_man.png; sourceTree = "<group>"; };
+		A32BEAC115E08E9C004B972D /* dust_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dust_man.png; sourceTree = "<group>"; };
+		A32BEAC215E08E9C004B972D /* pharaoh_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pharaoh_man.png; sourceTree = "<group>"; };
+		A32BEAC315E08E9C004B972D /* ring_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ring_man.png; sourceTree = "<group>"; };
+		A32BEAC415E08E9C004B972D /* skull_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skull_man.png; sourceTree = "<group>"; };
+		A32BEAC515E08E9C004B972D /* toad_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toad_man.png; sourceTree = "<group>"; };
+		A32BEAC615E08E9C004B972D /* wire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wire.png; sourceTree = "<group>"; };
 		A33C288715D2FEF8001EAC3F /* title_mm2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_mm2.png; sourceTree = "<group>"; };
 		A33C288915D2FF07001EAC3F /* title_mm3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_mm3.png; sourceTree = "<group>"; };
 		A33C289815D30611001EAC3F /* MMPGDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPGDataStore.h; sourceTree = "<group>"; };
@@ -196,6 +216,23 @@
 				A323381B15D5FEF4003D062C /* top_man.png */,
 			);
 			name = "Mega Man 3";
+			sourceTree = "<group>";
+		};
+		A32BEABB15E08E51004B972D /* Mega Man 4 */ = {
+			isa = PBXGroup;
+			children = (
+				A32BEABD15E08E9C004B972D /* balloon.png */,
+				A32BEABE15E08E9C004B972D /* bright_man.png */,
+				A32BEABF15E08E9C004B972D /* dive_man.png */,
+				A32BEAC015E08E9C004B972D /* drill_man.png */,
+				A32BEAC115E08E9C004B972D /* dust_man.png */,
+				A32BEAC215E08E9C004B972D /* pharaoh_man.png */,
+				A32BEAC315E08E9C004B972D /* ring_man.png */,
+				A32BEAC415E08E9C004B972D /* skull_man.png */,
+				A32BEAC515E08E9C004B972D /* toad_man.png */,
+				A32BEAC615E08E9C004B972D /* wire.png */,
+			);
+			name = "Mega Man 4";
 			sourceTree = "<group>";
 		};
 		A33C289615D30491001EAC3F /* Password Generators */ = {
@@ -311,10 +348,11 @@
 		A390726715D59BCE0052E8E6 /* Sprites */ = {
 			isa = PBXGroup;
 			children = (
-				A398A8EF15D6FF7F00ED23EE /* Password Assets */,
 				A323380C15D5F17C003D062C /* Items */,
+				A398A8EF15D6FF7F00ED23EE /* Password Assets */,
 				A32337E615D5B2E6003D062C /* Mega Man 2 */,
 				A323380F15D5FE9A003D062C /* Mega Man 3 */,
+				A32BEABB15E08E51004B972D /* Mega Man 4 */,
 			);
 			name = Sprites;
 			sourceTree = "<group>";
@@ -426,6 +464,16 @@
 				A31784A015DDB40600A79A51 /* mm3_grid.png in Resources */,
 				A31784A115DDB40600A79A51 /* mm2_grid.png in Resources */,
 				A34ACA8D15DF0EF700AA6869 /* break_man.png in Resources */,
+				A32BEAC715E08E9C004B972D /* balloon.png in Resources */,
+				A32BEAC815E08E9C004B972D /* bright_man.png in Resources */,
+				A32BEAC915E08E9C004B972D /* dive_man.png in Resources */,
+				A32BEACA15E08E9C004B972D /* drill_man.png in Resources */,
+				A32BEACB15E08E9C004B972D /* dust_man.png in Resources */,
+				A32BEACC15E08E9C004B972D /* pharaoh_man.png in Resources */,
+				A32BEACD15E08E9C004B972D /* ring_man.png in Resources */,
+				A32BEACE15E08E9C004B972D /* skull_man.png in Resources */,
+				A32BEACF15E08E9C004B972D /* toad_man.png in Resources */,
+				A32BEAD015E08E9C004B972D /* wire.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
