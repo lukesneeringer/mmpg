@@ -23,19 +23,6 @@
 		<string>Mega Man 2</string>
 		<key>year</key>
 		<integer>1988</integer>
-		<key>items</key>
-		<array>
-			<dict>
-				<key>code</key>
-				<string>etank</string>
-				<key>label</key>
-				<string>Energy Tank</string>
-				<key>min</key>
-				<integer>0</integer>
-				<key>max</key>
-				<integer>4</integer>
-			</dict>
-		</array>
 		<key>bosses</key>
 		<array>
 			<dict>
@@ -47,8 +34,6 @@
 				<string>Air Shooter</string>
 				<key>weaponCode</key>
 				<string>A</string>
-				<key>tier</key>
-				<integer>0</integer>
 			</dict>
 			<dict>
 				<key>code</key>
@@ -59,8 +44,6 @@
 				<string>Bubble Lead</string>
 				<key>weaponCode</key>
 				<string>B</string>
-				<key>tier</key>
-				<integer>0</integer>
 			</dict>
 			<dict>
 				<key>code</key>
@@ -71,8 +54,6 @@
 				<string>Crash Bomb</string>
 				<key>weaponCode</key>
 				<string>C</string>
-				<key>tier</key>
-				<integer>0</integer>
 			</dict>
 			<dict>
 				<key>code</key>
@@ -83,8 +64,6 @@
 				<string>Time Stopper</string>
 				<key>weaponCode</key>
 				<string>F</string>
-				<key>tier</key>
-				<integer>0</integer>
 			</dict>
 			<dict>
 				<key>label</key>
@@ -95,8 +74,6 @@
 				<string>Atomic Fire</string>
 				<key>weaponCode</key>
 				<string>H</string>
-				<key>tier</key>
-				<integer>0</integer>
 			</dict>
 			<dict>
 				<key>code</key>
@@ -107,8 +84,6 @@
 				<string>Metal Blade</string>
 				<key>weaponCode</key>
 				<string>M</string>
-				<key>tier</key>
-				<integer>0</integer>
 			</dict>
 			<dict>
 				<key>code</key>
@@ -119,8 +94,6 @@
 				<string>Quick Boomerang</string>
 				<key>weaponCode</key>
 				<string>Q</string>
-				<key>tier</key>
-				<integer>0</integer>
 			</dict>
 			<dict>
 				<key>code</key>
@@ -131,8 +104,19 @@
 				<string>Leaf Shield</string>
 				<key>weaponCode</key>
 				<string>W</string>
-				<key>tier</key>
+			</dict>
+		</array>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>code</key>
+				<string>etank</string>
+				<key>label</key>
+				<string>Energy Tank</string>
+				<key>min</key>
 				<integer>0</integer>
+				<key>max</key>
+				<integer>4</integer>
 			</dict>
 		</array>
 	</dict>
@@ -159,19 +143,6 @@
 		<string>Mega Man 3</string>
 		<key>year</key>
 		<integer>1990</integer>
-		<key>items</key>
-		<array>
-			<dict>
-				<key>code</key>
-				<string>etank</string>
-				<key>label</key>
-				<string>Energy Tank</string>
-				<key>min</key>
-				<integer>0</integer>
-				<key>max</key>
-				<integer>9</integer>
-			</dict>
-		</array>
 		<key>bosses</key>
 		<array>
 			<dict>
@@ -309,6 +280,135 @@
 				<string>break_man</string>
 				<key>tier</key>
 				<integer>2</integer>
+			</dict>
+		</array>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>code</key>
+				<string>etank</string>
+				<key>label</key>
+				<string>Energy Tank</string>
+				<key>min</key>
+				<integer>0</integer>
+				<key>max</key>
+				<integer>9</integer>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>system</key>
+		<string>NES</string>
+		<key>code</key>
+		<string>mm4</string>
+		<key>label</key>
+		<string>Mega Man 4</string>
+		<key>year</key>
+		<integer>1991</integer>
+		<key>bosses</key>
+		<array>
+			<dict>
+				<key>label</key>
+				<string>Bright Man</string>
+				<key>code</key>
+				<string>bright_man</string>
+				<key>weapon</key>
+				<string>Flash Stopper</string>
+				<key>weaponCode</key>
+				<string>F. STOPPER</string>
+			</dict>
+			<dict>
+				<key>label</key>
+				<string>Dive Man</string>
+				<key>code</key>
+				<string>dive_man</string>
+				<key>weapon</key>
+				<string>Dive Missile</string>
+				<key>weaponCode</key>
+				<string>D. Missile</string>
+			</dict>
+			<dict>
+				<key>label</key>
+				<string>Drill Man</string>
+				<key>code</key>
+				<string>drill_man</string>
+				<key>weapon</key>
+				<string>Drill Bomb</string>
+				<key>weaponCode</key>
+				<string>D. BOMB</string>
+			</dict>
+			<dict>
+				<key>label</key>
+				<string>Dust Man</string>
+				<key>code</key>
+				<string>dust_man</string>
+				<key>weapon</key>
+				<string>Dust Barrier</string>
+				<key>weaponCode</key>
+				<string>D. BARRIER</string>
+			</dict>
+			<dict>
+				<key>label</key>
+				<string>Pharaoh Man</string>
+				<key>code</key>
+				<string>pharaoh_man</string>
+				<key>weapon</key>
+				<string>Pharaoh Shot</string>
+				<key>weaponCode</key>
+				<string>P. SHOT</string>
+			</dict>
+			<dict>
+				<key>label</key>
+				<string>Ring Man</string>
+				<key>code</key>
+				<string>ring_man</string>
+				<key>weapon</key>
+				<string>Ring Boomerang</string>
+				<key>weaponCode</key>
+				<string>R. BOOMERANG</string>
+			</dict>
+			<dict>
+				<key>label</key>
+				<string>Skull Man</string>
+				<key>code</key>
+				<string>skull_man</string>
+				<key>weapon</key>
+				<string>Skull Barrier</string>
+				<key>weaponCode</key>
+				<string>S. BARRIER</string>
+			</dict>
+			<dict>
+				<key>label</key>
+				<string>Toad Man</string>
+				<key>code</key>
+				<string>toad_man</string>
+				<key>weapon</key>
+				<string>Rain Flush</string>
+				<key>weaponCode</key>
+				<string>R. FLUSH</string>
+			</dict>
+		</array>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>code</key>
+				<string>balloon</string>
+				<key>label</key>
+				<string>Balloon</string>
+				<key>min</key>
+				<integer>0</integer>
+				<key>max</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>code</key>
+				<string>wire</string>
+				<key>label</key>
+				<string>Wire</string>
+				<key>min</key>
+				<integer>0</integer>
+				<key>max</key>
+				<integer>1</integer>
 			</dict>
 		</array>
 	</dict>
