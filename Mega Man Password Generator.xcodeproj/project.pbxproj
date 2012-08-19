@@ -50,6 +50,7 @@
 		A32BEACE15E08E9C004B972D /* skull_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A32BEAC415E08E9C004B972D /* skull_man.png */; };
 		A32BEACF15E08E9C004B972D /* toad_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A32BEAC515E08E9C004B972D /* toad_man.png */; };
 		A32BEAD015E08E9C004B972D /* wire.png in Resources */ = {isa = PBXBuildFile; fileRef = A32BEAC615E08E9C004B972D /* wire.png */; };
+		A32BEAD315E09032004B972D /* MM4PasswordGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = A32BEAD215E09032004B972D /* MM4PasswordGenerator.m */; };
 		A33C288815D2FEF8001EAC3F /* title_mm2.png in Resources */ = {isa = PBXBuildFile; fileRef = A33C288715D2FEF8001EAC3F /* title_mm2.png */; };
 		A33C288A15D2FF07001EAC3F /* title_mm3.png in Resources */ = {isa = PBXBuildFile; fileRef = A33C288915D2FF07001EAC3F /* title_mm3.png */; };
 		A33C289A15D30611001EAC3F /* MMPGDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = A33C289915D30611001EAC3F /* MMPGDataStore.m */; };
@@ -125,6 +126,8 @@
 		A32BEAC415E08E9C004B972D /* skull_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skull_man.png; sourceTree = "<group>"; };
 		A32BEAC515E08E9C004B972D /* toad_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toad_man.png; sourceTree = "<group>"; };
 		A32BEAC615E08E9C004B972D /* wire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wire.png; sourceTree = "<group>"; };
+		A32BEAD115E09032004B972D /* MM4PasswordGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MM4PasswordGenerator.h; sourceTree = "<group>"; };
+		A32BEAD215E09032004B972D /* MM4PasswordGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MM4PasswordGenerator.m; sourceTree = "<group>"; };
 		A33C288715D2FEF8001EAC3F /* title_mm2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_mm2.png; sourceTree = "<group>"; };
 		A33C288915D2FF07001EAC3F /* title_mm3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_mm3.png; sourceTree = "<group>"; };
 		A33C289815D30611001EAC3F /* MMPGDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPGDataStore.h; sourceTree = "<group>"; };
@@ -246,6 +249,8 @@
 				A323382F15D6041E003D062C /* MM2PasswordGenerator.m */,
 				A398A8E315D6F1A400ED23EE /* MM3PasswordGenerator.h */,
 				A398A8E415D6F1A400ED23EE /* MM3PasswordGenerator.m */,
+				A32BEAD115E09032004B972D /* MM4PasswordGenerator.h */,
+				A32BEAD215E09032004B972D /* MM4PasswordGenerator.m */,
 			);
 			name = "Password Generators";
 			sourceTree = "<group>";
@@ -501,6 +506,7 @@
 				A323383315D606F7003D062C /* Password.m in Sources */,
 				A398A8E515D6F1A400ED23EE /* MM3PasswordGenerator.m in Sources */,
 				A398A8EA15D6F57F00ED23EE /* PasswordViewController.m in Sources */,
+				A32BEAD315E09032004B972D /* MM4PasswordGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

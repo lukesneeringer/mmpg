@@ -343,9 +343,9 @@
 				<key>code</key>
 				<string>dust_man</string>
 				<key>weapon</key>
-				<string>Dust Barrier</string>
+				<string>Dust Crusher</string>
 				<key>weaponCode</key>
-				<string>D. BARRIER</string>
+				<string>D. CRUSHER</string>
 			</dict>
 			<dict>
 				<key>label</key>
