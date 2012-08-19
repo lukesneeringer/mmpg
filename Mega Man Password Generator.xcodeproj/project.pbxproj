@@ -51,6 +51,7 @@
 		A32BEACF15E08E9C004B972D /* toad_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A32BEAC515E08E9C004B972D /* toad_man.png */; };
 		A32BEAD015E08E9C004B972D /* wire.png in Resources */ = {isa = PBXBuildFile; fileRef = A32BEAC615E08E9C004B972D /* wire.png */; };
 		A32BEAD315E09032004B972D /* MM4PasswordGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = A32BEAD215E09032004B972D /* MM4PasswordGenerator.m */; };
+		A32BEAD715E0A308004B972D /* mm4_grid.png in Resources */ = {isa = PBXBuildFile; fileRef = A32BEAD615E0A308004B972D /* mm4_grid.png */; };
 		A33C288815D2FEF8001EAC3F /* title_mm2.png in Resources */ = {isa = PBXBuildFile; fileRef = A33C288715D2FEF8001EAC3F /* title_mm2.png */; };
 		A33C288A15D2FF07001EAC3F /* title_mm3.png in Resources */ = {isa = PBXBuildFile; fileRef = A33C288915D2FF07001EAC3F /* title_mm3.png */; };
 		A33C289A15D30611001EAC3F /* MMPGDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = A33C289915D30611001EAC3F /* MMPGDataStore.m */; };
@@ -128,6 +129,7 @@
 		A32BEAC615E08E9C004B972D /* wire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wire.png; sourceTree = "<group>"; };
 		A32BEAD115E09032004B972D /* MM4PasswordGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MM4PasswordGenerator.h; sourceTree = "<group>"; };
 		A32BEAD215E09032004B972D /* MM4PasswordGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MM4PasswordGenerator.m; sourceTree = "<group>"; };
+		A32BEAD615E0A308004B972D /* mm4_grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mm4_grid.png; sourceTree = "<group>"; };
 		A33C288715D2FEF8001EAC3F /* title_mm2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_mm2.png; sourceTree = "<group>"; };
 		A33C288915D2FF07001EAC3F /* title_mm3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_mm3.png; sourceTree = "<group>"; };
 		A33C289815D30611001EAC3F /* MMPGDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPGDataStore.h; sourceTree = "<group>"; };
@@ -378,6 +380,7 @@
 				A398A8F815D7034800ED23EE /* red_dot.png */,
 				A317849F15DDB40600A79A51 /* mm2_grid.png */,
 				A317849E15DDB40600A79A51 /* mm3_grid.png */,
+				A32BEAD615E0A308004B972D /* mm4_grid.png */,
 			);
 			name = "Password Assets";
 			sourceTree = "<group>";
@@ -479,6 +482,7 @@
 				A32BEACE15E08E9C004B972D /* skull_man.png in Resources */,
 				A32BEACF15E08E9C004B972D /* toad_man.png in Resources */,
 				A32BEAD015E08E9C004B972D /* wire.png in Resources */,
+				A32BEAD715E0A308004B972D /* mm4_grid.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
