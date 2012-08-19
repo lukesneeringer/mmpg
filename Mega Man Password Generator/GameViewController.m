@@ -96,9 +96,23 @@
 }
 
 
-- (void) didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void) setAvailableAllBossesAboveTier:(NSUInteger)tier {
+    for (int i = 0; i < [self.childViewControllers count]; i += 1) {
+        id childViewController = [self.childViewControllers objectAtIndex:i];
+        if ([childViewController respondsToSelector:@selector(setBossAvailableIfAboveTier:)]) {
+            [childViewController setBossAvailableIfAboveTier:tier];
+        }
+    }
+}
+
+
+- (void) setDefeatedAllBossesBelowTier:(NSUInteger)tier {
+    for (int i = 0; i < [self.childViewControllers count]; i += 1) {
+        id childViewController = [self.childViewControllers objectAtIndex:i];
+        if ([childViewController respondsToSelector:@selector(setBossDefeatedIfBelowTier:)]) {
+            [childViewController setBossDefeatedIfBelowTier:tier];
+        }
+    }
 }
 
 

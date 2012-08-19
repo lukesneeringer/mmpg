@@ -21,4 +21,7 @@
 
 - (IBAction) setBossStatus:(UISegmentedControl*)sender;
 
+- (void) setBossAvailableIfAboveTier:(NSUInteger)tier;
+- (void) setBossDefeatedIfBelowTier:(NSUInteger)tier;
+
 @end

@@ -18,6 +18,8 @@
 }
 
 - (id) initWithGame:(Game*)aGame;
+- (void) setDefeatedAllBossesBelowTier:(NSUInteger)tier;
+- (void) setAvailableAllBossesAboveTier:(NSUInteger)tier;
 
 - (IBAction) generatePassword:(id)sender;
 

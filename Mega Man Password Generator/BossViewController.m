@@ -7,6 +7,7 @@
 //
 
 #import "BossViewController.h"
+#import "GameViewController.h"
 #import "Boss.h"
 
 @implementation BossViewController
@@ -39,6 +40,35 @@
 
 - (IBAction) setBossStatus:(UISegmentedControl*)sender {
     boss.defeated = (BOOL)sender.selectedSegmentIndex;
+    
+    // handle any dependencies
+    // if this boss is defeated and in a tier above 0, defeat
+    //   all bosses in lower tiers
+    // if the boss is available and in the not-highest tier,
+    //   make available all bosses in higher tiers
+    GameViewController* gvc = (GameViewController*)self.parentViewController;
+    if (boss.defeated == YES && boss.tier > 0) {
+        [gvc setDefeatedAllBossesBelowTier:boss.tier];
+    }
+    else if (boss.defeated == NO) {
+        [gvc setAvailableAllBossesAboveTier:boss.tier];
+    }
+}
+
+
+- (void) setBossAvailableIfAboveTier:(NSUInteger)tier {
+    if (boss.tier > tier) {
+        boss.defeated = NO;
+        [segmentedControl setSelectedSegmentIndex:0];
+    }
+}
+
+
+- (void) setBossDefeatedIfBelowTier:(NSUInteger)tier {
+    if (boss.tier < tier) {
+        boss.defeated = YES;
+        [segmentedControl setSelectedSegmentIndex:1];
+    }
 }
 
 
