@@ -15,7 +15,7 @@
 @implementation MM4PasswordGenerator
 
 - (Password*) generatePassword {
-    NSMutableArray* units = [[NSMutableArray alloc] initWithCapacity:6];
+    Password* password = [[Password alloc] init];
     
     // first of all, we need a counter for how many bosses are defeated
     // plus how many items are acquired
@@ -25,95 +25,95 @@
     Boss* toadMan = [game bossWithCode:@"toad_man"];
     Boss* brightMan = [game bossWithCode:@"bright_man"];
     if (toadMan.defeated && brightMan.defeated) {
-        [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:'A' andColumn:1]];
+        [password setImageCode:@"red_dot" atRow:'A' andColumn:1];
         counter += 2;
     }
     else if (toadMan.defeated) {
-        [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:'B' andColumn:1]];
+        [password setImageCode:@"red_dot" atRow:'B' andColumn:1];
         counter += 1;
     }
     else if (brightMan.defeated) {
-        [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:'C' andColumn:2]];
+        [password setImageCode:@"red_dot" atRow:'C' andColumn:2];
         counter += 1;
     }
     else {
-        [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:'A' andColumn:2]];
+        [password setImageCode:@"red_dot" atRow:'A' andColumn:2];
     }
     
     // set the appropriate dot for Pharaoh Man and Drill Man
     Boss* pharaohMan = [game bossWithCode:@"pharaoh_man"];
     Boss* drillMan = [game bossWithCode:@"drill_man"];
     if (pharaohMan.defeated && drillMan.defeated) {
-        [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:'A' andColumn:4]];
+        [password setImageCode:@"red_dot" atRow:'A' andColumn:4];
         counter += 2;
     }
     else if (pharaohMan.defeated) {
-        [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:'B' andColumn:4]];
+        [password setImageCode:@"red_dot" atRow:'B' andColumn:4];
         counter += 1;
     }
     else if (drillMan.defeated) {
-        [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:'C' andColumn:3]];
+        [password setImageCode:@"red_dot" atRow:'C' andColumn:3];
         counter += 1;
     }
     else {
-        [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:'A' andColumn:3]];
+        [password setImageCode:@"red_dot" atRow:'A' andColumn:3];
     }
     
     // set the appropriate dot for Ring Man and Dust Man
     Boss* ringMan = [game bossWithCode:@"ring_man"];
     Boss* dustMan = [game bossWithCode:@"dust_man"];
     if (ringMan.defeated && dustMan.defeated) {
-        [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:'B' andColumn:5]];
+        [password setImageCode:@"red_dot" atRow:'B' andColumn:5];
         counter += 2;
     }
     else if (ringMan.defeated) {
-        [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:'B' andColumn:6]];
+        [password setImageCode:@"red_dot" atRow:'B' andColumn:6];
         counter += 1;
     }
     else if (dustMan.defeated) {
-        [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:'C' andColumn:5]];
+        [password setImageCode:@"red_dot" atRow:'C' andColumn:5];
         counter += 1;
     }
     else {
-        [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:'A' andColumn:5]];
+        [password setImageCode:@"red_dot" atRow:'A' andColumn:5];
     }
     
     // set the appropriate dot for Skull Man and Dive Man
     Boss* skullMan = [game bossWithCode:@"skull_man"];
     Boss* diveMan = [game bossWithCode:@"dive_man"];
     if (skullMan.defeated && diveMan.defeated) {
-        [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:'E' andColumn:2]];
+        [password setImageCode:@"red_dot" atRow:'E' andColumn:2];
         counter += 2;
     }
     else if (skullMan.defeated) {
-        [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:'F' andColumn:2]];
+        [password setImageCode:@"red_dot" atRow:'F' andColumn:2];
         counter += 1;
     }
     else if (diveMan.defeated) {
-        [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:'E' andColumn:1]];
+        [password setImageCode:@"red_dot" atRow:'E' andColumn:1];
         counter += 1;
     }
     else {
-        [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:'D' andColumn:1]];
+        [password setImageCode:@"red_dot" atRow:'D' andColumn:1];
     }
     
     // set the appropriate dot for Balloon and Wire
     Item* balloon = [game itemWithCode:@"balloon"];
     Item* wire = [game itemWithCode:@"wire"];
     if (balloon.stock == 1 && wire.stock == 1) {
-        [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:'F' andColumn:3]];
+        [password setImageCode:@"red_dot" atRow:'F' andColumn:3];
         counter += 2;
     }
     else if (balloon.stock == 1) {
-        [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:'D' andColumn:3]];
+        [password setImageCode:@"red_dot" atRow:'D' andColumn:3];
         counter += 1;
     }
     else if (wire.stock == 1) {
-        [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:'D' andColumn:4]];
+        [password setImageCode:@"red_dot" atRow:'D' andColumn:4];
         counter += 1;
     }
     else {
-        [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:'E' andColumn:3]];
+        [password setImageCode:@"red_dot" atRow:'E' andColumn:3];
     }
     
     // now set the checksum password dot
@@ -121,10 +121,10 @@
     NSString* checksum = [checksums objectAtIndex:counter];
     char row = [checksum characterAtIndex:0];
     int column = [checksum characterAtIndex:1] - 48;
-    [units addObject:[[PasswordUnit alloc] initWithImageCode:@"red_dot" atRow:row andColumn:column]];
+    [password setImageCode:@"red_dot" atRow:row andColumn:column];
     
     // done!
-    return [[Password alloc] initWithUnits:units];
+    return password;
 }
 
 @end

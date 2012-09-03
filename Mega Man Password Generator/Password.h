@@ -8,11 +8,18 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Password : NSObject
+@interface Password : NSObject {
+    NSMutableArray* units;
+}
 
-@property (nonatomic, strong, readonly) NSArray* units;
+// designated initializer
+- (id) initWithRows:(int)rows andColumns:(int)columns;
 
-- (id) initWithUnits:(NSArray*)unitArray;
+- (NSArray*) units;
+- (void) setImageCode:(NSString*)code atRow:(char)rowChar andColumn:(int)columnInt allowingOverwrite:(BOOL)allowOverride;
+- (void) setImageCode:(NSString*)code atRow:(char)rowChar andColumn:(int)columnInt;
+- (NSString*) imageCodeAtRow:(char)rowChar andColumn:(int)columnInt;
+- (BOOL) usingRow:(char)rowChar andColumn:(int)columnInt;
 
 @end
 

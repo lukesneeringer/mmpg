@@ -91,6 +91,7 @@
 		A3DAC21115F542EC00824FA9 /* mm5_n.png in Resources */ = {isa = PBXBuildFile; fileRef = A3DAC20D15F542EC00824FA9 /* mm5_n.png */; };
 		A3DAC21215F542EC00824FA9 /* mm5_g.png in Resources */ = {isa = PBXBuildFile; fileRef = A3DAC20E15F542EC00824FA9 /* mm5_g.png */; };
 		A3DAC21415F54E3700824FA9 /* mm5_grid.png in Resources */ = {isa = PBXBuildFile; fileRef = A3DAC21315F54E3700824FA9 /* mm5_grid.png */; };
+		A3DAC21715F54F0B00824FA9 /* MM5PasswordGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DAC21615F54F0B00824FA9 /* MM5PasswordGenerator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -198,6 +199,8 @@
 		A3DAC20D15F542EC00824FA9 /* mm5_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mm5_n.png; sourceTree = "<group>"; };
 		A3DAC20E15F542EC00824FA9 /* mm5_g.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mm5_g.png; sourceTree = "<group>"; };
 		A3DAC21315F54E3700824FA9 /* mm5_grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mm5_grid.png; sourceTree = "<group>"; };
+		A3DAC21515F54F0B00824FA9 /* MM5PasswordGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MM5PasswordGenerator.h; sourceTree = "<group>"; };
+		A3DAC21615F54F0B00824FA9 /* MM5PasswordGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MM5PasswordGenerator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -287,6 +290,8 @@
 				A398A8E415D6F1A400ED23EE /* MM3PasswordGenerator.m */,
 				A32BEAD115E09032004B972D /* MM4PasswordGenerator.h */,
 				A32BEAD215E09032004B972D /* MM4PasswordGenerator.m */,
+				A3DAC21515F54F0B00824FA9 /* MM5PasswordGenerator.h */,
+				A3DAC21615F54F0B00824FA9 /* MM5PasswordGenerator.m */,
 			);
 			name = "Password Generators";
 			sourceTree = "<group>";
@@ -587,6 +592,7 @@
 				A398A8E515D6F1A400ED23EE /* MM3PasswordGenerator.m in Sources */,
 				A398A8EA15D6F57F00ED23EE /* PasswordViewController.m in Sources */,
 				A32BEAD315E09032004B972D /* MM4PasswordGenerator.m in Sources */,
+				A3DAC21715F54F0B00824FA9 /* MM5PasswordGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -43,8 +43,9 @@
     CGPoint center = CGPointMake(self.view.frame.size.width / 2, self.view.frame.size.height / 2);
         
     // now place each individual password unit
-    for (int i = 0; i < [password.units count]; i += 1) {
-        PasswordUnit* unit = [password.units objectAtIndex:i];
+    NSArray* units = [password units];
+    for (int i = 0; i < [units count]; i += 1) {
+        PasswordUnit* unit = [units objectAtIndex:i];
         
         // calculate my offset from center for the column
         CGRect dotFrame = CGRectMake(
