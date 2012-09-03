@@ -11,35 +11,12 @@
 @implementation Password
 
 
-/**
- * initialize a new password with a given number of rows and columns
- * available (usually this is 6x6)
- */
-- (id) initWithRows:(int)rows andColumns:(int)columns {
+- (id) init {
     self = [super init];
     if (self) {
-        units = [[NSMutableArray alloc] initWithCapacity:rows];
-        for (int i = 0; i < rows; i += 1) {
-            [units setObject:[[NSMutableArray alloc] initWithCapacity:columns] atIndexedSubscript:i];
-        }
+        units = [[NSMutableDictionary alloc] init];
     }
     return self;
-}
-
-
-- (id) init {
-    self = [self initWithRows:6 andColumns:6];
-    return self;
-}
-
-
-/**
- * return the array corresponding to a particular row
- * (private method; not in .h)
- */
-- (NSMutableArray*) row:(char)rowChar {
-    int rowInt = (int)(rowChar - 'A') + 1;
-    return [units objectAtIndexedSubscript:rowInt];
 }
 
 
@@ -47,15 +24,7 @@
  * return a list of the units in this password
  */
 - (NSArray*) units {
-    NSMutableArray* answer = [[NSMutableArray alloc] init];
-    for (NSArray* row in units) {
-        for (PasswordUnit* unit in row) {
-            if (unit != nil) {
-                [answer addObject:unit];
-            }
-        }
-    }
-    return (NSArray*)answer;
+    return [units allValues];
 }
 
 
@@ -70,9 +39,9 @@
     PasswordUnit* unit = [[PasswordUnit alloc] initWithImageCode:code atRow:rowChar andColumn:columnInt];
     
     // store the PasswordUnit in the appropriate location in the matrix
-    NSMutableArray* row = [self row:rowChar];
+    NSString* coords = [NSString stringWithFormat:@"%c%i", rowChar, columnInt];
     if (overwrite || ![self usingRow:rowChar andColumn:columnInt]) {
-        [row setObject:unit atIndexedSubscript:columnInt - 1];
+        [units setValue:unit forKey:coords];
     }
     else {
         // oops -- we tried to write to a matrix coordinate that
@@ -105,8 +74,8 @@
  */
 - (NSString*) imageCodeAtRow:(char)rowChar andColumn:(int)columnInt {
     // get the PasswordUnit object existing at this coordinate
-    NSMutableArray* row = [self row:rowChar];
-    PasswordUnit* unit = [row objectAtIndexedSubscript:columnInt - 1];
+    NSString* coords = [NSString stringWithFormat:@"%c%i", rowChar, columnInt];
+    PasswordUnit* unit = [units valueForKey:coords];
     return unit.imageCode;
 }
 

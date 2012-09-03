@@ -15,7 +15,7 @@
 @implementation MM2PasswordGenerator
 
 - (Password*) generatePassword {
-    Password* password = [[Password alloc] initWithRows:5 andColumns:5];
+    Password* password = [[Password alloc] init];
     
     // first, how many energy tanks are in the player's
     // possession; everything else falls out from that

@@ -9,11 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface Password : NSObject {
-    NSMutableArray* units;
+    NSMutableDictionary* units;
 }
-
-// designated initializer
-- (id) initWithRows:(int)rows andColumns:(int)columns;
 
 - (NSArray*) units;
 - (void) setImageCode:(NSString*)code atRow:(char)rowChar andColumn:(int)columnInt allowingOverwrite:(BOOL)allowOverride;
