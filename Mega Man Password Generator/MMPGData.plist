@@ -506,49 +506,49 @@
 				<key>label</key>
 				<string>M</string>
 				<key>code</key>
-				<string>m1</string>
+				<string>mm5_m1</string>
 			</dict>
 			<dict>
 				<key>label</key>
 				<string>E</string>
 				<key>code</key>
-				<string>e</string>
+				<string>mm5_e</string>
 			</dict>
 			<dict>
 				<key>label</key>
 				<string>G</string>
 				<key>code</key>
-				<string>g</string>
+				<string>mm5_g</string>
 			</dict>
 			<dict>
 				<key>label</key>
 				<string>A</string>
 				<key>code</key>
-				<string>a1</string>
+				<string>mm5_a1</string>
 			</dict>
 			<dict>
 				<key>label</key>
 				<string>M</string>
 				<key>code</key>
-				<string>m2</string>
+				<string>mm5_m2</string>
 			</dict>
 			<dict>
 				<key>label</key>
 				<string>A</string>
 				<key>code</key>
-				<string>a2</string>
+				<string>mm5_a2</string>
 			</dict>
 			<dict>
 				<key>label</key>
 				<string>N</string>
 				<key>code</key>
-				<string>n</string>
+				<string>mm5_n</string>
 			</dict>
 			<dict>
 				<key>label</key>
 				<string>V</string>
 				<key>code</key>
-				<string>v</string>
+				<string>mm5_v</string>
 			</dict>
 		</array>
 	</dict>
