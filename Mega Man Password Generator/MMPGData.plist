@@ -424,5 +424,133 @@
 			</dict>
 		</array>
 	</dict>
+	<dict>
+		<key>system</key>
+		<string>NES</string>
+		<key>code</key>
+		<string>mm5</string>
+		<key>label</key>
+		<string>Mega Man 5</string>
+		<key>year</key>
+		<integer>1992</integer>
+		<key>bosses</key>
+		<array>
+			<dict>
+				<key>label</key>
+				<string>Charge Man</string>
+				<key>weapon</key>
+				<string>Charge Kick</string>
+				<key>code</key>
+				<string>charge_man</string>
+			</dict>
+			<dict>
+				<key>label</key>
+				<string>Crystal Man</string>
+				<key>code</key>
+				<string>crystal_man</string>
+				<key>weapon</key>
+				<string>Crystal Eye</string>
+			</dict>
+			<dict>
+				<key>label</key>
+				<string>Gravity Man</string>
+				<key>code</key>
+				<string>gravity_man</string>
+				<key>weapon</key>
+				<string>Gravity Hold</string>
+			</dict>
+			<dict>
+				<key>label</key>
+				<string>Gyro Man</string>
+				<key>code</key>
+				<string>gyro_man</string>
+				<key>weapon</key>
+				<string>Gyro Attack</string>
+			</dict>
+			<dict>
+				<key>label</key>
+				<string>Napalm Man</string>
+				<key>code</key>
+				<string>napalm_man</string>
+				<key>weapon</key>
+				<string>Napalm Bomb</string>
+			</dict>
+			<dict>
+				<key>label</key>
+				<string>Star Man</string>
+				<key>code</key>
+				<string>star_man</string>
+				<key>weapon</key>
+				<string>Star Crash</string>
+			</dict>
+			<dict>
+				<key>label</key>
+				<string>Stone Man</string>
+				<key>code</key>
+				<string>stone_man</string>
+				<key>weapon</key>
+				<string>Power Stone</string>
+			</dict>
+			<dict>
+				<key>label</key>
+				<string>Wave Man</string>
+				<key>code</key>
+				<string>wave_man</string>
+				<key>weapon</key>
+				<string>Water Wave</string>
+			</dict>
+		</array>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>label</key>
+				<string>M</string>
+				<key>code</key>
+				<string>m1</string>
+			</dict>
+			<dict>
+				<key>label</key>
+				<string>E</string>
+				<key>code</key>
+				<string>e</string>
+			</dict>
+			<dict>
+				<key>label</key>
+				<string>G</string>
+				<key>code</key>
+				<string>g</string>
+			</dict>
+			<dict>
+				<key>label</key>
+				<string>A</string>
+				<key>code</key>
+				<string>a1</string>
+			</dict>
+			<dict>
+				<key>label</key>
+				<string>M</string>
+				<key>code</key>
+				<string>m2</string>
+			</dict>
+			<dict>
+				<key>label</key>
+				<string>A</string>
+				<key>code</key>
+				<string>a2</string>
+			</dict>
+			<dict>
+				<key>label</key>
+				<string>N</string>
+				<key>code</key>
+				<string>n</string>
+			</dict>
+			<dict>
+				<key>label</key>
+				<string>V</string>
+				<key>code</key>
+				<string>v</string>
+			</dict>
+		</array>
+	</dict>
 </array>
 </plist>
