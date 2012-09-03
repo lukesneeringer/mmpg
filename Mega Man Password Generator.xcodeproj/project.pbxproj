@@ -84,6 +84,7 @@
 		A3DAC20215F52D3400824FA9 /* napalm_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A3DAC20015F52D3400824FA9 /* napalm_man.png */; };
 		A3DAC20515F52EFD00824FA9 /* stone_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A3DAC20315F52EFD00824FA9 /* stone_man.png */; };
 		A3DAC20615F52EFD00824FA9 /* wave_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A3DAC20415F52EFD00824FA9 /* wave_man.png */; };
+		A3DAC20815F5315E00824FA9 /* star_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A3DAC20715F5315E00824FA9 /* star_man.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -184,6 +185,7 @@
 		A3DAC20015F52D3400824FA9 /* napalm_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = napalm_man.png; sourceTree = "<group>"; };
 		A3DAC20315F52EFD00824FA9 /* stone_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stone_man.png; sourceTree = "<group>"; };
 		A3DAC20415F52EFD00824FA9 /* wave_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wave_man.png; sourceTree = "<group>"; };
+		A3DAC20715F5315E00824FA9 /* star_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_man.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -411,6 +413,7 @@
 			children = (
 				A3DAC1FF15F52D3400824FA9 /* crystal_man.png */,
 				A3DAC20015F52D3400824FA9 /* napalm_man.png */,
+				A3DAC20715F5315E00824FA9 /* star_man.png */,
 				A3DAC20315F52EFD00824FA9 /* stone_man.png */,
 				A3DAC20415F52EFD00824FA9 /* wave_man.png */,
 				A3DAC1F515F5287700824FA9 /* gyro_man.png */,
@@ -531,6 +534,7 @@
 				A3DAC20215F52D3400824FA9 /* napalm_man.png in Resources */,
 				A3DAC20515F52EFD00824FA9 /* stone_man.png in Resources */,
 				A3DAC20615F52EFD00824FA9 /* wave_man.png in Resources */,
+				A3DAC20815F5315E00824FA9 /* star_man.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
