@@ -90,6 +90,7 @@
 		A3DAC21015F542EC00824FA9 /* mm5_v.png in Resources */ = {isa = PBXBuildFile; fileRef = A3DAC20C15F542EC00824FA9 /* mm5_v.png */; };
 		A3DAC21115F542EC00824FA9 /* mm5_n.png in Resources */ = {isa = PBXBuildFile; fileRef = A3DAC20D15F542EC00824FA9 /* mm5_n.png */; };
 		A3DAC21215F542EC00824FA9 /* mm5_g.png in Resources */ = {isa = PBXBuildFile; fileRef = A3DAC20E15F542EC00824FA9 /* mm5_g.png */; };
+		A3DAC21415F54E3700824FA9 /* mm5_grid.png in Resources */ = {isa = PBXBuildFile; fileRef = A3DAC21315F54E3700824FA9 /* mm5_grid.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -196,6 +197,7 @@
 		A3DAC20C15F542EC00824FA9 /* mm5_v.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mm5_v.png; sourceTree = "<group>"; };
 		A3DAC20D15F542EC00824FA9 /* mm5_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mm5_n.png; sourceTree = "<group>"; };
 		A3DAC20E15F542EC00824FA9 /* mm5_g.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mm5_g.png; sourceTree = "<group>"; };
+		A3DAC21315F54E3700824FA9 /* mm5_grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mm5_grid.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -414,6 +416,7 @@
 				A317849F15DDB40600A79A51 /* mm2_grid.png */,
 				A317849E15DDB40600A79A51 /* mm3_grid.png */,
 				A32BEAD615E0A308004B972D /* mm4_grid.png */,
+				A3DAC21315F54E3700824FA9 /* mm5_grid.png */,
 			);
 			name = "Password Assets";
 			sourceTree = "<group>";
@@ -555,6 +558,7 @@
 				A3DAC21015F542EC00824FA9 /* mm5_v.png in Resources */,
 				A3DAC21115F542EC00824FA9 /* mm5_n.png in Resources */,
 				A3DAC21215F542EC00824FA9 /* mm5_g.png in Resources */,
+				A3DAC21415F54E3700824FA9 /* mm5_grid.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
