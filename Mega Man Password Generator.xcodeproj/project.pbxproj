@@ -86,6 +86,10 @@
 		A3DAC20615F52EFD00824FA9 /* wave_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A3DAC20415F52EFD00824FA9 /* wave_man.png */; };
 		A3DAC20815F5315E00824FA9 /* star_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A3DAC20715F5315E00824FA9 /* star_man.png */; };
 		A3DAC20A15F5328C00824FA9 /* charge_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A3DAC20915F5328C00824FA9 /* charge_man.png */; };
+		A3DAC20F15F542EC00824FA9 /* mm5_e.png in Resources */ = {isa = PBXBuildFile; fileRef = A3DAC20B15F542EC00824FA9 /* mm5_e.png */; };
+		A3DAC21015F542EC00824FA9 /* mm5_v.png in Resources */ = {isa = PBXBuildFile; fileRef = A3DAC20C15F542EC00824FA9 /* mm5_v.png */; };
+		A3DAC21115F542EC00824FA9 /* mm5_n.png in Resources */ = {isa = PBXBuildFile; fileRef = A3DAC20D15F542EC00824FA9 /* mm5_n.png */; };
+		A3DAC21215F542EC00824FA9 /* mm5_g.png in Resources */ = {isa = PBXBuildFile; fileRef = A3DAC20E15F542EC00824FA9 /* mm5_g.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -188,6 +192,10 @@
 		A3DAC20415F52EFD00824FA9 /* wave_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wave_man.png; sourceTree = "<group>"; };
 		A3DAC20715F5315E00824FA9 /* star_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_man.png; sourceTree = "<group>"; };
 		A3DAC20915F5328C00824FA9 /* charge_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = charge_man.png; sourceTree = "<group>"; };
+		A3DAC20B15F542EC00824FA9 /* mm5_e.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mm5_e.png; sourceTree = "<group>"; };
+		A3DAC20C15F542EC00824FA9 /* mm5_v.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mm5_v.png; sourceTree = "<group>"; };
+		A3DAC20D15F542EC00824FA9 /* mm5_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mm5_n.png; sourceTree = "<group>"; };
+		A3DAC20E15F542EC00824FA9 /* mm5_g.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mm5_g.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -413,18 +421,22 @@
 		A3DAC1F115F5260F00824FA9 /* Mega Man 5 */ = {
 			isa = PBXGroup;
 			children = (
+				A3DAC20915F5328C00824FA9 /* charge_man.png */,
 				A3DAC1FF15F52D3400824FA9 /* crystal_man.png */,
+				A3DAC1F315F5277900824FA9 /* gravity_man.png */,
+				A3DAC1F515F5287700824FA9 /* gyro_man.png */,
 				A3DAC20015F52D3400824FA9 /* napalm_man.png */,
 				A3DAC20715F5315E00824FA9 /* star_man.png */,
 				A3DAC20315F52EFD00824FA9 /* stone_man.png */,
-				A3DAC20915F5328C00824FA9 /* charge_man.png */,
 				A3DAC20415F52EFD00824FA9 /* wave_man.png */,
-				A3DAC1F515F5287700824FA9 /* gyro_man.png */,
-				A3DAC1F315F5277900824FA9 /* gravity_man.png */,
-				A3DAC1F715F5297500824FA9 /* mm5_m2.png */,
-				A3DAC1F815F5297500824FA9 /* mm5_a1.png */,
-				A3DAC1F915F5297500824FA9 /* mm5_a2.png */,
 				A3DAC1FA15F5297500824FA9 /* mm5_m1.png */,
+				A3DAC20B15F542EC00824FA9 /* mm5_e.png */,
+				A3DAC20E15F542EC00824FA9 /* mm5_g.png */,
+				A3DAC1F815F5297500824FA9 /* mm5_a1.png */,
+				A3DAC1F715F5297500824FA9 /* mm5_m2.png */,
+				A3DAC1F915F5297500824FA9 /* mm5_a2.png */,
+				A3DAC20D15F542EC00824FA9 /* mm5_n.png */,
+				A3DAC20C15F542EC00824FA9 /* mm5_v.png */,
 			);
 			name = "Mega Man 5";
 			sourceTree = "<group>";
@@ -539,6 +551,10 @@
 				A3DAC20615F52EFD00824FA9 /* wave_man.png in Resources */,
 				A3DAC20815F5315E00824FA9 /* star_man.png in Resources */,
 				A3DAC20A15F5328C00824FA9 /* charge_man.png in Resources */,
+				A3DAC20F15F542EC00824FA9 /* mm5_e.png in Resources */,
+				A3DAC21015F542EC00824FA9 /* mm5_v.png in Resources */,
+				A3DAC21115F542EC00824FA9 /* mm5_n.png in Resources */,
+				A3DAC21215F542EC00824FA9 /* mm5_g.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
