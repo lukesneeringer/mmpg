@@ -62,6 +62,50 @@
         [password setImageCode:@"red_dot" atRow:'D' andColumn:3];
     }
     
+    // write the appropriate dot for Gravity Man, Wave Man, and Stone Man
+    Boss* gravityMan = [game bossWithCode:@"gravity_man"];
+    Boss* waveMan = [game bossWithCode:@"wave_man"];
+    Boss* stoneMan = [game bossWithCode:@"stone_man"];
+    if (gravityMan.defeated && waveMan.defeated && stoneMan.defeated) {
+        [password setImageCode:@"red_dot" atRow:'F' andColumn:6];
+    }
+    else if (gravityMan.defeated && waveMan.defeated) {
+        [password setImageCode:@"red_dot" atRow:'A' andColumn:5];
+    }
+    else if (gravityMan.defeated && stoneMan.defeated) {
+        [password setImageCode:@"red_dot" atRow:'A' andColumn:6];
+    }
+    else if (waveMan.defeated && stoneMan.defeated) {
+        [password setImageCode:@"red_dot" atRow:'C' andColumn:5];
+    }
+    else if (gravityMan.defeated) {
+        [password setImageCode:@"red_dot" atRow:'C' andColumn:6];
+    }
+    else if (waveMan.defeated) {
+        [password setImageCode:@"red_dot" atRow:'B' andColumn:6];
+    }
+    else if (stoneMan.defeated) {
+        [password setImageCode:@"red_dot" atRow:'B' andColumn:5];
+    }
+    else {
+        [password setImageCode:@"red_dot" atRow:'F' andColumn:5];
+    }
+    
+    // write the appropriate dot for the "N" (Napalm Man's stage) and "V" (Crystal Man's stage)
+    Item* n = [game itemWithCode:@"mm5_n"];
+    Item* v = [game itemWithCode:@"mm5_v"];
+    if (n.stock && v.stock) {
+        [password setImageCode:@"blue_dot" atRow:'C' andColumn:1 withBackupRow:'F' andBackupColumn:1];
+    }
+    else if (n.stock) {
+        [password setImageCode:@"blue_dot" atRow:'E' andColumn:2 withBackupRow:'A' andBackupColumn:2];
+    }
+    else if (v.stock) {
+        [password setImageCode:@"blue_dot" atRow:'D' andColumn:2 withBackupRow:'A' andBackupColumn:2];
+    }
+    else {
+        [password setImageCode:@"blue_dot" atRow:'B' andColumn:1 withBackupRow:'F' andBackupColumn:1];
+    }
     
     return password;
 }

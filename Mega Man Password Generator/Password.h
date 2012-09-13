@@ -15,6 +15,7 @@
 - (NSArray*) units;
 - (void) setImageCode:(NSString*)code atRow:(char)rowChar andColumn:(int)columnInt allowingOverwrite:(BOOL)allowOverride;
 - (void) setImageCode:(NSString*)code atRow:(char)rowChar andColumn:(int)columnInt;
+- (void) setImageCode:(NSString*)code atRow:(char)rowChar andColumn:(int)columnInt withBackupRow:(char)backupRowChar andBackupColumn:(int)backupColumnInt;
 - (NSString*) imageCodeAtRow:(char)rowChar andColumn:(int)columnInt;
 - (BOOL) usingRow:(char)rowChar andColumn:(int)columnInt;
 

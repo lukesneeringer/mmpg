@@ -69,6 +69,22 @@
 
 
 /**
+ * add a given password place, at the given row and column
+ *   if and only if the position is already taken, use the backup row and column instead
+ */
+- (void) setImageCode:(NSString*)code atRow:(char)rowChar andColumn:(int)columnInt withBackupRow:(char)backupRowChar andBackupColumn:(int)backupColumnInt {
+    // can I use the intended row and column?
+    if (![self usingRow:rowChar andColumn:columnInt]) {
+        // okay, we're good; simply use the primary row and column
+        return [self setImageCode:code atRow:rowChar andColumn:columnInt];
+    }
+    
+    // okay, I'm forced to use the backup row and column
+    return [self setImageCode:code atRow:backupRowChar andColumn:backupColumnInt];
+}
+
+
+/**
  * return the image code (e.g. @"red_dot") for a given row and column
  *   in this password; if the coordinate is empty, return nil
  */
