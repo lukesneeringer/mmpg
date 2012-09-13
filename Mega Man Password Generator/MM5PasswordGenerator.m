@@ -115,6 +115,9 @@
     else if (g.stock) {
         [password setImageCode:@"blue_dot" atRow:'B' andColumn:5 withBackupRow:'D' andBackupColumn:5];
     }
+    else {
+        [password setImageCode:@"blue_dot" atRow:'F' andColumn:5 withBackupRow:'E' andBackupColumn:5];
+    }
     
     // write the appropriate dot for both "A"s (Gyro, Charge) and the second "M" (Star Man's stage)
     Item* a1 = [game itemWithCode:@"mm5_a1"];

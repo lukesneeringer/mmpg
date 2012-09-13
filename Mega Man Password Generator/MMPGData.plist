@@ -425,6 +425,18 @@
 		</array>
 	</dict>
 	<dict>
+		<key>cellHeight</key>
+		<integer>16</integer>
+		<key>cellWidth</key>
+		<integer>16</integer>
+		<key>gridColumns</key>
+		<integer>6</integer>
+		<key>gridRows</key>
+		<integer>6</integer>
+		<key>xOffset</key>
+		<integer>14</integer>
+		<key>yOffset</key>
+		<integer>-18</integer>
 		<key>system</key>
 		<string>NES</string>
 		<key>code</key>
