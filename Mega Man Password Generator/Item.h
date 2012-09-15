@@ -9,6 +9,7 @@
 #import "MMPGDataObject.h"
 
 @class Game;
+@class Boss;
 
 @interface Item : MMPGDataObject
 
@@ -17,5 +18,7 @@
 @property (nonatomic) NSUInteger max;
 
 @property (nonatomic) NSUInteger stock;
+
+@property (nonatomic, weak) Boss* dependsOnBoss;
 
 @end

@@ -96,6 +96,10 @@
 }
 
 
+/**
+ * Set any bosses in a tier above the given tier
+ * to available.
+ */
 - (void) setAvailableAllBossesAboveTier:(NSUInteger)tier {
     for (int i = 0; i < [self.childViewControllers count]; i += 1) {
         id childViewController = [self.childViewControllers objectAtIndex:i];
@@ -106,6 +110,10 @@
 }
 
 
+/**
+ * Set any bosses in a tier below the given tier
+ * to defeated.
+ */
 - (void) setDefeatedAllBossesBelowTier:(NSUInteger)tier {
     for (int i = 0; i < [self.childViewControllers count]; i += 1) {
         id childViewController = [self.childViewControllers objectAtIndex:i];
@@ -116,6 +124,22 @@
 }
 
 
+/**
+ * Set any items depending on this boss to a not yet found status.
+ */
+- (void) loseAllItemsDependingOnBoss:(Boss*)boss {
+    for (int i = 0; i < [self.childViewControllers count]; i += 1) {
+        id childViewController = [self.childViewControllers objectAtIndex:i];
+        if ([childViewController respondsToSelector:@selector(loseItemIfDependsOnBoss:)]) {
+            [childViewController loseItemIfDependsOnBoss:boss];
+        }
+    }
+}
+
+
+/**
+ * Generate and show the correct password.
+ */
 - (IBAction) generatePassword:(id)sender {
     // retrieve the appropriate password generator
     // for the given game

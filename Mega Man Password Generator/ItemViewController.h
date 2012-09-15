@@ -14,6 +14,7 @@ enum ItemQuantityType {
 };
 
 @class Item;
+@class Boss;
 
 @interface ItemViewController : UIViewController {
     Item* item;
@@ -29,5 +30,7 @@ enum ItemQuantityType {
 - (id) initWithItem:(Item*)itemObj andFrame:(CGRect)frame;
 
 - (IBAction) updateItemCount:(id)sender;
+
+- (void) loseItemIfDependsOnBoss:(Boss*)boss;
 
 @end

@@ -8,6 +8,7 @@
 
 #import "ItemViewController.h"
 #import "Item.h"
+#import "Boss.h"
 
 @implementation ItemViewController
 
@@ -61,6 +62,16 @@
     if (stepper) {
         itemCountLabel.text = [NSString stringWithFormat:@"%d", (int)stepper.value];
         item.stock = (int)stepper.value;
+    }
+}
+
+
+- (void) loseItemIfDependsOnBoss:(Boss*)boss {
+    if (item.dependsOnBoss != nil && [item.dependsOnBoss.code isEqualToString:boss.code]) {
+        item.stock = 0;
+        if (itemCountLabel) {
+            itemCountLabel.text = [NSString stringWithFormat:@"0"];
+        }
     }
 }
 

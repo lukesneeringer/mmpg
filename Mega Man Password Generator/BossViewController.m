@@ -53,6 +53,14 @@
     else if (boss.defeated == NO) {
         [gvc setAvailableAllBossesAboveTier:boss.tier];
     }
+    
+    // if there's an item that depends on defeating this
+    // boss (the obvious case is the B,E,A,T parts in MM6),
+    // and this boss is being set to available, then
+    // no can has item
+    if (boss.defeated == NO) {
+        [gvc loseAllItemsDependingOnBoss:boss];
+    }
 }
 
 
