@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @class Game;
+@class Boss;
+@class Item;
 
 @interface GameViewController : UIViewController {
     Game* game;
@@ -18,8 +20,14 @@
 }
 
 - (id) initWithGame:(Game*)aGame;
+
+/**
+ * Methods for inter-dependent bosses and items.
+ */
 - (void) setDefeatedAllBossesBelowTier:(NSUInteger)tier;
 - (void) setAvailableAllBossesAboveTier:(NSUInteger)tier;
+- (void) loseAllItemsDependingOnBoss:(Boss*)boss;
+- (void) defeatAllPrerequisiteBossesForItem:(Item*)item;
 
 - (IBAction) generatePassword:(id)sender;
 

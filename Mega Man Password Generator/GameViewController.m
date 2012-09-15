@@ -138,6 +138,14 @@
 
 
 /**
+ * Set any bosses on which this item depends to defeated status.
+ */
+- (void) defeatAllPrerequisiteBossesForItem:(Item*)item {
+    // not yet implemented
+}
+
+
+/**
  * Generate and show the correct password.
  */
 - (IBAction) generatePassword:(id)sender {
