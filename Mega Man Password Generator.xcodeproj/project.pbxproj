@@ -74,6 +74,7 @@
 		A398A8EB15D6F57F00ED23EE /* PasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A398A8E915D6F57F00ED23EE /* PasswordViewController.xib */; };
 		A398A8F915D7034800ED23EE /* blue_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = A398A8F715D7034800ED23EE /* blue_dot.png */; };
 		A398A8FA15D7034800ED23EE /* red_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = A398A8F815D7034800ED23EE /* red_dot.png */; };
+		A3D75AF31604FA2500EBC040 /* MM6PasswordGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D75AF21604FA2500EBC040 /* MM6PasswordGenerator.m */; };
 		A3DAC1F415F5277900824FA9 /* gravity_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A3DAC1F315F5277900824FA9 /* gravity_man.png */; };
 		A3DAC1F615F5287700824FA9 /* gyro_man.png in Resources */ = {isa = PBXBuildFile; fileRef = A3DAC1F515F5287700824FA9 /* gyro_man.png */; };
 		A3DAC1FB15F5297500824FA9 /* mm5_m2.png in Resources */ = {isa = PBXBuildFile; fileRef = A3DAC1F715F5297500824FA9 /* mm5_m2.png */; };
@@ -182,6 +183,8 @@
 		A398A8E915D6F57F00ED23EE /* PasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PasswordViewController.xib; sourceTree = "<group>"; };
 		A398A8F715D7034800ED23EE /* blue_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_dot.png; sourceTree = "<group>"; };
 		A398A8F815D7034800ED23EE /* red_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_dot.png; sourceTree = "<group>"; };
+		A3D75AF11604FA2500EBC040 /* MM6PasswordGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MM6PasswordGenerator.h; sourceTree = "<group>"; };
+		A3D75AF21604FA2500EBC040 /* MM6PasswordGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MM6PasswordGenerator.m; sourceTree = "<group>"; };
 		A3DAC1F315F5277900824FA9 /* gravity_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gravity_man.png; sourceTree = "<group>"; };
 		A3DAC1F515F5287700824FA9 /* gyro_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gyro_man.png; sourceTree = "<group>"; };
 		A3DAC1F715F5297500824FA9 /* mm5_m2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mm5_m2.png; sourceTree = "<group>"; };
@@ -292,6 +295,8 @@
 				A32BEAD215E09032004B972D /* MM4PasswordGenerator.m */,
 				A3DAC21515F54F0B00824FA9 /* MM5PasswordGenerator.h */,
 				A3DAC21615F54F0B00824FA9 /* MM5PasswordGenerator.m */,
+				A3D75AF11604FA2500EBC040 /* MM6PasswordGenerator.h */,
+				A3D75AF21604FA2500EBC040 /* MM6PasswordGenerator.m */,
 			);
 			name = "Password Generators";
 			sourceTree = "<group>";
@@ -593,6 +598,7 @@
 				A398A8EA15D6F57F00ED23EE /* PasswordViewController.m in Sources */,
 				A32BEAD315E09032004B972D /* MM4PasswordGenerator.m in Sources */,
 				A3DAC21715F54F0B00824FA9 /* MM5PasswordGenerator.m in Sources */,
+				A3D75AF31604FA2500EBC040 /* MM6PasswordGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
